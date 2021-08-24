@@ -1,0 +1,620 @@
+fileFormatVersion: 2
+guid: b08e71616eb22472694fdfe5ae39db4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6427637523452021548
+    second: Car_SLV_NL_NW
+  - first:
+      213: 1523574749152391610
+    second: Car_SLV_NL_N
+  - first:
+      213: 4379172882939460360
+    second: Car_SLV_NL_NE
+  - first:
+      213: -2321836199320206268
+    second: Car_SLV_NL_E
+  - first:
+      213: 4822256842046413859
+    second: Car_SLV_NL_SE
+  - first:
+      213: 8367763391803726269
+    second: Car_SLV_NL_S
+  - first:
+      213: -3578494651426341214
+    second: Car_SLV_NL_SW
+  - first:
+      213: -3863390091141323561
+    second: Car_SLV_NL_W
+  - first:
+      213: -2464562581558454997
+    second: Car_SLV_PL_NW
+  - first:
+      213: 5193072735775991246
+    second: Car_SLV_PL_N
+  - first:
+      213: 7106299054264693005
+    second: Car_SLV_PL_NE
+  - first:
+      213: -4243607834111153645
+    second: Car_SLV_PL_E
+  - first:
+      213: 2604605277492147494
+    second: Car_SLV_PL_SE
+  - first:
+      213: 6051433671693442455
+    second: Car_SLV_PL_S
+  - first:
+      213: 9158980819332307793
+    second: Car_SLV_PL_SW
+  - first:
+      213: 8377359810140500050
+    second: Car_SLV_PL_W
+  - first:
+      213: -6288723752990068135
+    second: Vehicle_SpriteSheet_Practice_16
+  - first:
+      213: 3829059114741546087
+    second: Vehicle_SpriteSheet_Practice_17
+  - first:
+      213: -3223790279009442435
+    second: Vehicle_SpriteSheet_Practice_18
+  - first:
+      213: -5503533482181271626
+    second: Vehicle_SpriteSheet_Practice_19
+  - first:
+      213: 1037358828674982618
+    second: Vehicle_SpriteSheet_Practice_20
+  - first:
+      213: -4896373133452383880
+    second: Vehicle_SpriteSheet_Practice_21
+  - first:
+      213: -4636191617921534023
+    second: Vehicle_SpriteSheet_Practice_22
+  - first:
+      213: -6538179866961316481
+    second: Vehicle_SpriteSheet_Practice_23
+  - first:
+      213: -5067535588048462468
+    second: Vehicle_SpriteSheet_Practice_24
+  - first:
+      213: 1907727874313223087
+    second: Vehicle_SpriteSheet_Practice_25
+  - first:
+      213: -123606649471687005
+    second: Vehicle_SpriteSheet_Practice_26
+  - first:
+      213: -8592560611334747107
+    second: Vehicle_SpriteSheet_Practice_27
+  - first:
+      213: 7232403507459418687
+    second: Vehicle_SpriteSheet_Practice_28
+  - first:
+      213: 7452178751078389306
+    second: Vehicle_SpriteSheet_Practice_29
+  - first:
+      213: -2126608878175028394
+    second: Vehicle_SpriteSheet_Practice_30
+  - first:
+      213: 4411603722264817771
+    second: Vehicle_SpriteSheet_Practice_31
+  - first:
+      213: 2441367094863579463
+    second: Vehicle_SpriteSheet_Practice_32
+  - first:
+      213: 247898394007748384
+    second: Vehicle_SpriteSheet_Practice_33
+  - first:
+      213: -4945069301012530070
+    second: Vehicle_SpriteSheet_Practice_34
+  - first:
+      213: -2444167881860411387
+    second: Vehicle_SpriteSheet_Practice_35
+  - first:
+      213: 6726795429030960078
+    second: Vehicle_SpriteSheet_Practice_36
+  - first:
+      213: -5367776162889984801
+    second: Vehicle_SpriteSheet_Practice_37
+  - first:
+      213: 5085220104800617765
+    second: Vehicle_SpriteSheet_Practice_38
+  - first:
+      213: -4851619764523281491
+    second: Vehicle_SpriteSheet_Practice_39
+  - first:
+      213: 4848043152321522323
+    second: Vehicle_SpriteSheet_Practice_40
+  - first:
+      213: 8670359035201729801
+    second: Vehicle_SpriteSheet_Practice_41
+  - first:
+      213: 3057738197272272774
+    second: Vehicle_SpriteSheet_Practice_42
+  - first:
+      213: -1995684855841853449
+    second: Vehicle_SpriteSheet_Practice_43
+  - first:
+      213: 1784097850083826061
+    second: Vehicle_SpriteSheet_Practice_44
+  - first:
+      213: -4813593552212511304
+    second: Vehicle_SpriteSheet_Practice_45
+  - first:
+      213: 8923116764834272118
+    second: Vehicle_SpriteSheet_Practice_46
+  - first:
+      213: -3159392779066675285
+    second: Vehicle_SpriteSheet_Practice_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Car_SLV_NL_NW
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1416
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b4452c54e833950800000000000000
+      internalID: 6427637523452021548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_NL_N
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1416
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1bbff7923d42510800000000000000
+      internalID: 1523574749152391610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_NL_NE
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1416
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b31a10982f5cc30800000000000000
+      internalID: 4379172882939460360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_NL_E
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1416
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44440e0474e27cfd0800000000000000
+      internalID: -2321836199320206268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_NL_SE
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1416
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c9fd56c091ce240800000000000000
+      internalID: 4822256842046413859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_NL_S
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1416
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db99af47874402470800000000000000
+      internalID: 8367763391803726269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_NL_SW
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1416
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aef81ff212a65ec0800000000000000
+      internalID: -3578494651426341214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_NL_W
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 1416
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4e1c46e2b726ac0800000000000000
+      internalID: -3863390091141323561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_PL_NW
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1643
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b251d7fc36d1ccdd0800000000000000
+      internalID: -2464562581558454997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_PL_N
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1643
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5a1bc9320811840800000000000000
+      internalID: 5193072735775991246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_PL_NE
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1643
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01342dc655ae9260800000000000000
+      internalID: 7106299054264693005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_PL_E
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1643
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a6db1982dab15c0800000000000000
+      internalID: -4243607834111153645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_PL_SE
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1643
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625f60933ba652420800000000000000
+      internalID: 2604605277492147494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_PL_S
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1643
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d102fccd20bf350800000000000000
+      internalID: 6051433671693442455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_PL_SW
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1643
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b1be0678c3b1f70800000000000000
+      internalID: 9158980819332307793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_PL_W
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1642
+        width: 200
+        height: 200
+      alignment: 9
+      pivot: {x: 225, y: 225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250fe07bc5c524470800000000000000
+      internalID: 8377359810140500050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
