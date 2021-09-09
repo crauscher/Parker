@@ -18,6 +18,7 @@ public class TaskNumberScript : MonoBehaviour
     }
 
     // Update is called once per frame
+    // Most of these values are set in taskController.cs
     void Update()
     {
         TaskDisplay.text = ("Task " + task + " of " + taskCount + "\n" +
