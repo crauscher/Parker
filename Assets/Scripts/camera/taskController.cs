@@ -7,6 +7,9 @@ public class taskController : MonoBehaviour
     // config params
     [SerializeField] private List<Task> tasks = new List<Task>();
 
+    // The above list can be seen (I think) in Scripts/SO/Tasks
+    // The task definitions are in Scripts/SO/SO Definitions/Task.cs
+
     // state variables
     [SerializeField] private int currentTask;
     [SerializeField] private bool noMoreTasks;
@@ -21,10 +24,12 @@ public class taskController : MonoBehaviour
 
     private void Start() 
     {
-        currentTask = 1;
+        currentTask = 1; // Hard coding for now
+
         TaskNumberScript.task = currentTask;  // Display on HUD
         TaskNumberScript.taskCount = tasks.Count;
         TaskNumberScript.taskString = "aaa";
+      //  TaskNumberScript.taskString = tasks[0].taskText;
     }
 
     // private methods
@@ -50,7 +55,9 @@ public class taskController : MonoBehaviour
         }
 
         TaskNumberScript.task = currentTask; // Display on HUD
+
         TaskNumberScript.taskCount = tasks.Count;
+
        // TaskNumberScript.taskString = tasks[currentTask].taskText;
     }
 
