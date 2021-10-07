@@ -7,9 +7,9 @@ public class TaskNumberScript : MonoBehaviour
 {
 
     Text TaskDisplay;
-    public static int task = -99;
-    public static int taskCount = -99;
-    public static string taskString = "nada";
+    public int taskNumber;
+    public int taskCount;
+    public string taskString;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class TaskNumberScript : MonoBehaviour
     // Most of these values are set in taskController.cs
     void Update()
     {
-        TaskDisplay.text = ("Task " + task + " of " + taskCount + "\n" +
+        TaskDisplay.text = ("Task " + taskNumber + " of " + taskCount + "\n" +
                             "Title: " + taskString + "\n" +
                             "Dest slot: " + "\n" +
                             "Task Time: " + "\n" +

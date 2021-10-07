@@ -8531,6 +8531,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93dd25710eb42bd4aa44199a97b96702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  taskNumber: 0
+  taskCount: 0
+  taskString: 
 --- !u!1 &513517614
 GameObject:
   m_ObjectHideFlags: 0
@@ -8578,7 +8581,6 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
-  - component: {fileID: 519420034}
   - component: {fileID: 519420035}
   - component: {fileID: 519420036}
   m_Layer: 0
@@ -8681,18 +8683,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c123598e20c3c2e469ec9aef663c868e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &519420034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62b1c583ab74cff4797e813cba315443, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &519420035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8708,6 +8698,7 @@ MonoBehaviour:
   tasks:
   - {fileID: 11400000, guid: efa05c6faf671d241bda1dec60fdfc95, type: 2}
   - {fileID: 11400000, guid: 125455bab6a7a5f44bd6f137294abb3f, type: 2}
+  TN_object: {fileID: 501800795}
   currentTask: 0
   noMoreTasks: 0
   keyNumber: 0

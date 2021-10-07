@@ -6,6 +6,8 @@ public class taskController : MonoBehaviour
 {
     // config params
     [SerializeField] private List<Task> tasks = new List<Task>();
+    [SerializeField] private GameObject TN_object;      // object that has the task number script on it
+    private TaskNumberScript TN_Script;                 // reference to the task number script
 
     // The above list can be seen (I think) in Scripts/SO/Tasks
     // The task definitions are in Scripts/SO/SO Definitions/Task.cs
@@ -20,15 +22,16 @@ public class taskController : MonoBehaviour
     private void Awake()
     {
         noMoreTasks = false;
+        TN_Script = TN_object.GetComponent<TaskNumberScript>();     // when game first starts, grab a reference to the script from the object
     }
 
     private void Start() 
     {
         currentTask = 1; // Hard coding for now
 
-        TaskNumberScript.task = currentTask;  // Display on HUD
-        TaskNumberScript.taskCount = tasks.Count;
-        TaskNumberScript.taskString = "aaa";
+        TN_Script.taskNumber = currentTask;  // Display on HUD
+        TN_Script.taskCount = tasks.Count;
+        TN_Script.taskString = tasks[currentTask].GetTaskText();
       //  TaskNumberScript.taskString = tasks[0].taskText;
     }
 
@@ -54,9 +57,9 @@ public class taskController : MonoBehaviour
             noMoreTasks = true;
         }
 
-        TaskNumberScript.task = currentTask; // Display on HUD
+        TN_Script.taskNumber = currentTask; // Display on HUD
 
-        TaskNumberScript.taskCount = tasks.Count;
+        TN_Script.taskCount = tasks.Count;
 
        // TaskNumberScript.taskString = tasks[currentTask].taskText;
     }
