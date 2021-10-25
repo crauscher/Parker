@@ -8512,7 +8512,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Task  ## of ##
 
-    Title: <blank>
+    Title: FizzBuzz
 
     Dest Slot: A3
 
