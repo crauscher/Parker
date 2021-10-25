@@ -8510,7 +8510,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Task test ##
+  m_Text: 'Task  ## of ##
+
+    Title: <blank>
+
+    Dest Slot: A3
+
+    Task Time:
+    # sec.
+
+    Payout: $0
+
+
+'
 --- !u!222 &501800798
 CanvasRenderer:
   m_ObjectHideFlags: 0
