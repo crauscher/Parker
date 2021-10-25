@@ -96,6 +96,7 @@ public class AttendantSensor : MonoBehaviour
     }
     private void FoundWrongCar()
     {
-        hc.AddMessageToQueue("Your key doesn't work on this car! The car you want is in " + GoalScript.currentGoal + "."); // send message "Wrong key."
+        hc.AddMessageToQueue("Your key doesn't work on this car! The car you want is in " + 
+            GoalScript.currentGoal + "."); // send message "Wrong key."
     }
 }

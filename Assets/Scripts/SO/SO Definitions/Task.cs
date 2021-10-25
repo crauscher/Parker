@@ -23,4 +23,5 @@ public class Task : ScriptableObject
 
     public int GetKeyNumber() { return keyNum; }
     public string GetTaskText() { return taskText; }
+    public int GetdestinationSlot() { return destinationSlot; }
 }

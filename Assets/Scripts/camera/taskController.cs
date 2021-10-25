@@ -9,7 +9,7 @@ public class taskController : MonoBehaviour
     [SerializeField] private GameObject TN_object;      // object that has the task number script on it
     private TaskNumberScript TN_Script;                 // reference to the task number script
 
-    // The above list can be seen (I think) in Scripts/SO/Tasks
+    // The above list can be seen in Scripts/SO/Tasks
     // The task definitions are in Scripts/SO/SO Definitions/Task.cs
 
     // state variables
@@ -32,6 +32,7 @@ public class taskController : MonoBehaviour
         TN_Script.taskNumber = currentTask;  // Display on HUD
         TN_Script.taskCount = tasks.Count;
         TN_Script.taskString = tasks[currentTask].GetTaskText();
+        TN_Script.taskDestination = tasks[currentTask].GetdestinationSlot();
       //  TaskNumberScript.taskString = tasks[0].taskText;
     }
 
@@ -60,6 +61,8 @@ public class taskController : MonoBehaviour
         TN_Script.taskNumber = currentTask; // Display on HUD
 
         TN_Script.taskCount = tasks.Count;
+
+
 
        // TaskNumberScript.taskString = tasks[currentTask].taskText;
     }
