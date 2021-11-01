@@ -8546,6 +8546,9 @@ MonoBehaviour:
   taskNumber: 0
   taskCount: 0
   taskString: 
+  taskDestination: 777
+  taskTime: 0
+  taskPayout: 0
 --- !u!1 &513517614
 GameObject:
   m_ObjectHideFlags: 0
@@ -8710,6 +8713,9 @@ MonoBehaviour:
   tasks:
   - {fileID: 11400000, guid: efa05c6faf671d241bda1dec60fdfc95, type: 2}
   - {fileID: 11400000, guid: 125455bab6a7a5f44bd6f137294abb3f, type: 2}
+  - {fileID: 11400000, guid: 987f24b4a66d40a47a422aee6bc0f101, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   TN_object: {fileID: 501800795}
   currentTask: 0
   noMoreTasks: 0

@@ -9,8 +9,10 @@ public class taskController : MonoBehaviour
     [SerializeField] private GameObject TN_object;      // object that has the task number script on it
     private TaskNumberScript TN_Script;                 // reference to the task number script
 
-    // The above list can be seen in Scripts/SO/Tasks
-    // The task definitions are in Scripts/SO/SO Definitions/Task.cs
+    // The above list can be seen in Scripts/SO/Tasks. Tasks must be created there as objects, and also
+    //   added as elements to the Task Controller script object on the Main Camera by dragging them from
+    //   ../SO/Tasks to the Tasks array.
+    // The task field  definitions are in Scripts/SO/SO Definitions/Task.cs
 
     // state variables
     [SerializeField] private int currentTask;
@@ -43,7 +45,7 @@ public class taskController : MonoBehaviour
     {
         tasks[currentTask].SetTaskComplete();
 
-       Debug.Log("TaskController: Setting task #" + currentTask + " complete."); // Might be better in task.cs
+        Debug.Log("TaskController: Setting task #" + currentTask + " complete."); // Might be better in task.cs
 
 
 
@@ -74,4 +76,6 @@ public class taskController : MonoBehaviour
         KeyNumberScript.key = keyNumber;  // Display on HUD
         return keyNumber; 
     }
+
+
 }
