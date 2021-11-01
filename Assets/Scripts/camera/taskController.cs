@@ -35,6 +35,8 @@ public class taskController : MonoBehaviour
         TN_Script.taskCount = tasks.Count;
         TN_Script.taskString = tasks[currentTask].GetTaskText();
         TN_Script.taskDestination = tasks[currentTask].GetdestinationSlot();
+        TN_Script.taskTime = tasks[currentTask].GetTaskTime();
+        TN_Script.taskPayout = tasks[currentTask].GetTaskPayout();
       //  TaskNumberScript.taskString = tasks[0].taskText;
     }
 

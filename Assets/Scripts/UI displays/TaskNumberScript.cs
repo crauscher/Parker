@@ -29,8 +29,8 @@ public class TaskNumberScript : MonoBehaviour
         TaskDisplay.text = ("Task " + taskNumber + " of " + taskCount + "\n" +
                             "Title: " + taskString + "\n" +
                             "Dest slot: " + taskDestination + "\n" +
-                            "Task Time: " + "\n" +
-                            "Payout: $" 
+                            "Task Time: " + taskTime + " seconds\n" +
+                            "Payout: $" + taskPayout
         
         );
     }
