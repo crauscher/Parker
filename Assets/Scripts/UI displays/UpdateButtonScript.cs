@@ -6,19 +6,24 @@ using UnityEngine.UI;
 public class UpdateButtonScript : MonoBehaviour 
 {
         public Button UpdateButton;
- 
- public void OnButtonPress(){
-        LevelScript.currentLevel++;   // This will update the Level number
-        CarsRemainingScript.currentCarsRemaining--;  // Updates the number of cars to go
-        GoalScript.currentGoal = "return to start";  // Set the next goal
-        TipsScript.Tips += 5;  // Increase tips by some amount
- }
+        private taskController tc;
+        
+    public void OnButtonPress() {
+
+        //      LevelScript.currentLevel++;   // This will update the Level number
+    CarsRemainingScript.currentCarsRemaining--;  // Updates the number of cars to go
+        //      GoalScript.currentGoal = "return to start";  // Set the next goal
+    TipsScript.Tips += 5;  // Increase tips by some amount
+    tc.SetNextTask();
+
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         Button btn = UpdateButton.GetComponent<Button>();
         //btn.onClick.AddListener(TaskOnClick);
+            tc = FindObjectOfType<taskController>();
     }
 
     void TaskOnClick(){

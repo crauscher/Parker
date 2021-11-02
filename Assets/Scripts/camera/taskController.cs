@@ -15,7 +15,7 @@ public class taskController : MonoBehaviour
     // The task field  definitions are in Scripts/SO/SO Definitions/Task.cs
 
     // state variables
-    [SerializeField] private int currentTask;
+    [SerializeField] public int currentTask;
     [SerializeField] private bool noMoreTasks;
     [SerializeField] private int keyNumber;
 
@@ -65,7 +65,12 @@ public class taskController : MonoBehaviour
         TN_Script.taskNumber = currentTask; // Display on HUD
 
         TN_Script.taskCount = tasks.Count;
-
+        
+        TN_Script.taskString = tasks[currentTask].GetTaskText();
+        TN_Script.taskDestination = tasks[currentTask].GetdestinationSlot();
+        TN_Script.taskTime = tasks[currentTask].GetTaskTime();
+        TN_Script.taskPayout = tasks[currentTask].GetTaskPayout();
+ 
 
 
        // TaskNumberScript.taskString = tasks[currentTask].taskText;
