@@ -52,10 +52,10 @@ TextureImporter:
     second: Car_SLV_PL_W
   - first:
       213: -6288723752990068135
-    second: Vehicle_SpriteSheet_Practice_16
+    second: Car_RED_PL_NW
   - first:
       213: 3829059114741546087
-    second: Vehicle_SpriteSheet_Practice_17
+    second: Car_RED_NL_NW
   - first:
       213: -3223790279009442435
     second: Vehicle_SpriteSheet_Practice_18
@@ -270,8 +270,8 @@ TextureImporter:
       name: Car_SLV_NL_NW
       rect:
         serializedVersion: 2
-        x: 10
-        y: 1418
+        x: 13
+        y: 1498
         width: 200
         height: 200
       alignment: 9
@@ -292,7 +292,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 244
-        y: 1418
+        y: 1498
         width: 200
         height: 200
       alignment: 9
@@ -313,7 +313,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 464
-        y: 1418
+        y: 1498
         width: 200
         height: 200
       alignment: 9
@@ -334,7 +334,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 684
-        y: 1418
+        y: 1498
         width: 200
         height: 200
       alignment: 9
@@ -355,7 +355,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 912
-        y: 1418
+        y: 1498
         width: 200
         height: 200
       alignment: 9
@@ -376,7 +376,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1141
-        y: 1418
+        y: 1498
         width: 200
         height: 200
       alignment: 9
@@ -397,7 +397,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1364
-        y: 1418
+        y: 1498
         width: 200
         height: 200
       alignment: 9
@@ -418,7 +418,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1588
-        y: 1418
+        y: 1498
         width: 200
         height: 200
       alignment: 9
@@ -438,8 +438,8 @@ TextureImporter:
       name: Car_SLV_PL_NW
       rect:
         serializedVersion: 2
-        x: 10
-        y: 1643
+        x: 11
+        y: 1728
         width: 200
         height: 200
       alignment: 9
@@ -460,7 +460,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 244
-        y: 1643
+        y: 1728
         width: 200
         height: 200
       alignment: 9
@@ -481,7 +481,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 464
-        y: 1643
+        y: 1728
         width: 200
         height: 200
       alignment: 9
@@ -502,7 +502,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 684
-        y: 1643
+        y: 1728
         width: 200
         height: 200
       alignment: 9
@@ -523,7 +523,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 912
-        y: 1643
+        y: 1728
         width: 200
         height: 200
       alignment: 9
@@ -544,7 +544,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1141
-        y: 1643
+        y: 1728
         width: 200
         height: 200
       alignment: 9
@@ -565,7 +565,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1364
-        y: 1643
+        y: 1728
         width: 200
         height: 200
       alignment: 9
@@ -586,7 +586,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1587
-        y: 1642
+        y: 1728
         width: 200
         height: 200
       alignment: 9
@@ -598,6 +598,90 @@ TextureImporter:
       bones: []
       spriteID: 250fe07bc5c524470800000000000000
       internalID: 8377359810140500050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_RED_PL_NW
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2153
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9523774d017f9b8a0800000000000000
+      internalID: -6288723752990068135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_RED_NL_NW
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1936
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c34264afc832530800000000000000
+      internalID: 3829059114741546087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_18
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 2153
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75e84552dbc243d0800000000000000
+      internalID: -3223790279009442435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_19
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1967
+        width: 141
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfdd19f4758f93b0800000000000000
+      internalID: -5503533482181271626
       vertices: []
       indices: 
       edges: []
