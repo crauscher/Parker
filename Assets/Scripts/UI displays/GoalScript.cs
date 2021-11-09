@@ -7,7 +7,7 @@ public class GoalScript : MonoBehaviour
 {
      Text GoalDisplay;
 
-    public static string currentGoal = "A3";
+    public static string currentGoal = "A3";   // This may be redundant with "destination"
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +20,7 @@ public class GoalScript : MonoBehaviour
     {
         if (currentGoal == "A3")
         {
-            //GoalDisplay.text = "You're looking for a car\n in A3, go go go!";
+
             GoalDisplay.text = "Next goal: " + currentGoal;
         }
         else {

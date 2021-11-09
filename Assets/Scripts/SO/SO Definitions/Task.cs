@@ -12,6 +12,7 @@ public class Task : ScriptableObject
 
     [Header("Destination")]
     [SerializeField] int destinationSlot;
+    [SerializeField] string taskSectionSlot = "QQ";
     [SerializeField] int taskTime;
     [SerializeField] int taskPayout;
 
@@ -21,9 +22,12 @@ public class Task : ScriptableObject
   //      Debug.Log("Task.cs: Setting task #" + taskController.currentTask + " complete.");  
     }
 
+    // There appears to be some duplication here between public methods in task.cs and TaskCreator.cs
+
     public int GetKeyNumber() { return keyNum; }
     public string GetTaskText() { return taskText; }
     public int GetdestinationSlot() { return destinationSlot; }
     public int GetTaskTime() { return taskTime; }
     public int GetTaskPayout() { return taskPayout; }
+    public string GetSectionSlot() { return taskSectionSlot; }
 }

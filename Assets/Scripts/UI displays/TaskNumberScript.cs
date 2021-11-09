@@ -11,6 +11,7 @@ public class TaskNumberScript : MonoBehaviour
     public int taskCount;
     public string taskString;
     public int taskDestination = 777;
+    public string taskSectionSlot = "??";
     public int taskTime;
     public int taskPayout;
 
@@ -29,6 +30,7 @@ public class TaskNumberScript : MonoBehaviour
         TaskDisplay.text = ("Task " + taskNumber + " of " + taskCount + "\n" +
                             "Title: " + taskString + "\n" +
                             "Dest slot: " + taskDestination + "\n" +
+                            "Section:" + taskSectionSlot + "\n" +
                             "Task Time: " + taskTime + " seconds\n" +
                             "Payout: $" + taskPayout
         

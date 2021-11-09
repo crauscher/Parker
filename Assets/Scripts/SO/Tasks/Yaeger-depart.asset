@@ -18,3 +18,4 @@ MonoBehaviour:
   taskComplete: 0
   keyNum: 64
   destinationSlot: 4
+  slotSection: D3

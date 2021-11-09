@@ -15,8 +15,9 @@ public class TaskCreator : ScriptableObject
     [SerializeField] int keyNum;
     [Header("Destination")]
     [SerializeField] int destinationSlot;
+    [SerializeField] string slotSection;
 
-    // public methods
+    // public methods  (possible refactoring: check for duplication in task.cs)
     public string GetTaskText() { return taskText; }
     public int GetTaskTime() { return taskTime; }
     public int GetTaskPayout() { return taskPayout; }
@@ -24,4 +25,5 @@ public class TaskCreator : ScriptableObject
     public bool CheckTaskComplete() { return taskComplete; }
     public int GetKeyNumber() { return keyNum; }
     public int GetDestinationSlot() { return destinationSlot; }
+    public string GetSectionSlot() { return slotSection; }
 }

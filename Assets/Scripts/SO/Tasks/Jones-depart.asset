@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0ddee96dbc7cf94094aef0da2c1eecc, type: 3}
   m_Name: Jones-depart
   m_EditorClassIdentifier: 
-  taskNum: 1
   taskText: Retrieve Mr. Jones's car
+  keyNum: 1
+  originSlot: 0
+  destinationSlot: 999
+  slotSection: C1
   taskTime: 90
   taskPayout: 20
-  keyNum: 1
-  destinationSlot: 999

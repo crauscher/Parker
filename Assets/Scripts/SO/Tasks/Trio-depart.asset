@@ -16,5 +16,6 @@ MonoBehaviour:
   keyNum: 3
   originSlot: 0
   destinationSlot: 3
+  slotSection: C1
   taskTime: 240
   taskPayout: 9
