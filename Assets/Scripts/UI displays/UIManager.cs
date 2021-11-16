@@ -13,8 +13,6 @@ public class UIManager : MonoBehaviour
 	
 
 	void Start() {
-
-
 		AudioListener.volume = 0;  // Sound should be off at the beginning
 		isMute=true;
 	}
@@ -23,7 +21,7 @@ public class UIManager : MonoBehaviour
 	{
 		LevelScript.currentLevel = 1;
 		CarsRemainingScript.currentCarsRemaining = 2;
-		GoalScript.currentGoal = "A3";
+		GoalScript.currentGoal = "Unknown";
 		TipsScript.Tips = 0;
 		SceneManager.LoadScene("Level-01");
 

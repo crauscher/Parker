@@ -32,8 +32,6 @@ public class TaskNumberScript : MonoBehaviour
                             "Dest slot: " + taskDestination + "\n" +
                             "Section:" + taskSectionSlot + "\n" +
                             "Task Time: " + taskTime + " seconds\n" +
-                            "Payout: $" + taskPayout
-        
-        );
+                            "Payout: $" + taskPayout );
     }
 }

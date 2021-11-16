@@ -7,7 +7,7 @@ public class GoalScript : MonoBehaviour
 {
      Text GoalDisplay;
 
-    public static string currentGoal = "A3";   // This may be redundant with "destination"
+    public static string currentGoal = "Somewhere";   // This may be redundant with "destination"
 
     // Start is called before the first frame update
     void Start()
@@ -18,14 +18,7 @@ public class GoalScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentGoal == "A3")
-        {
-
-            GoalDisplay.text = "Next goal: " + currentGoal;
-        }
-        else {
-             GoalDisplay.text = "Next goal: " + currentGoal;
-        }
+        GoalDisplay.text = "Next goal: " + currentGoal;
     }
 }
 

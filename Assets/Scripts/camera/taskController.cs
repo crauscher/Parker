@@ -7,7 +7,9 @@ public class taskController : MonoBehaviour
     // config params
     [SerializeField] private List<Task> tasks = new List<Task>();
     [SerializeField] private GameObject TN_object;      // object that has the task number script on it
+  //  [SerializeField] private GameObject Goal_object;
     private TaskNumberScript TN_Script;                 // reference to the task number script
+//    private GoalScript Goal_Script;
 
     // The above list can be seen in Scripts/SO/Tasks. Tasks must be created there as objects, and also
     //   added as elements to the Task Controller script object on the Main Camera by dragging them from
@@ -25,42 +27,30 @@ public class taskController : MonoBehaviour
     {
         noMoreTasks = false;
         TN_Script = TN_object.GetComponent<TaskNumberScript>();     // when game first starts, grab a reference to the script from the object
+       // Goal_Script = Goal_object.GetComponent<GoalScript>();
     }
 
     private void Start() 
     {
         currentTask = 0; // Hard coding for now
-
         DisplayTaskInfo();
     }
 
-    // private methods
-
-    // public methods
     public void SetNextTask()
     {
         tasks[currentTask].SetTaskComplete();
-
         Debug.Log("TaskController: Setting task #" + currentTask + " complete."); // Might be better in task.cs
-
-
 
         if (currentTask<(tasks.Count-1) && !noMoreTasks)
         {
             currentTask++;
-
         }
         else 
         {
-          // currentTask = 0;
             noMoreTasks = true;
         }
-
         DisplayTaskInfo();
- 
     }
-
-
 
     public int GetKeyNumber() { 
         keyNumber = tasks[currentTask].GetKeyNumber();
@@ -77,7 +67,6 @@ public class taskController : MonoBehaviour
         TN_Script.taskTime = tasks[currentTask].GetTaskTime();
         TN_Script.taskPayout = tasks[currentTask].GetTaskPayout();
         TN_Script.taskSectionSlot = tasks[currentTask].GetSectionSlot();
-
     }
 
 }
