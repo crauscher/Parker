@@ -58,46 +58,46 @@ TextureImporter:
     second: Car_RED_NL_NW
   - first:
       213: -3223790279009442435
-    second: Vehicle_SpriteSheet_Practice_18
+    second: Car_RED_PL_N
   - first:
       213: -5503533482181271626
-    second: Vehicle_SpriteSheet_Practice_19
+    second: Car_RED_NL_N
   - first:
       213: 1037358828674982618
-    second: Vehicle_SpriteSheet_Practice_20
+    second: Car_RED_PL_NE
   - first:
       213: -4896373133452383880
-    second: Vehicle_SpriteSheet_Practice_21
+    second: Car_RED_NL_NE
   - first:
       213: -4636191617921534023
-    second: Vehicle_SpriteSheet_Practice_22
+    second: Car_RED_PL_E
   - first:
       213: -6538179866961316481
-    second: Vehicle_SpriteSheet_Practice_23
+    second: Car_RED_NL_E
   - first:
       213: -5067535588048462468
-    second: Vehicle_SpriteSheet_Practice_24
+    second: Car_RED_PL_SE
   - first:
       213: 1907727874313223087
-    second: Vehicle_SpriteSheet_Practice_25
+    second: Car_RED_NL_SE
   - first:
       213: -123606649471687005
-    second: Vehicle_SpriteSheet_Practice_26
+    second: Car_RED_PL_S
   - first:
       213: -8592560611334747107
-    second: Vehicle_SpriteSheet_Practice_27
+    second: Car_RED_NL_S
   - first:
       213: 7232403507459418687
-    second: Vehicle_SpriteSheet_Practice_28
+    second: Car_RED_PL_SW
   - first:
       213: 7452178751078389306
-    second: Vehicle_SpriteSheet_Practice_29
+    second: Car_RED_NL_SW
   - first:
       213: -2126608878175028394
-    second: Vehicle_SpriteSheet_Practice_30
+    second: Car_RED_PL_W
   - first:
       213: 4411603722264817771
-    second: Vehicle_SpriteSheet_Practice_31
+    second: Car_RED_NL_W
   - first:
       213: 2441367094863579463
     second: Vehicle_SpriteSheet_Practice_32
@@ -480,8 +480,8 @@ TextureImporter:
       name: Car_SLV_PL_NE
       rect:
         serializedVersion: 2
-        x: 464
-        y: 1728
+        x: 462
+        y: 1727
         width: 200
         height: 200
       alignment: 9
@@ -564,8 +564,8 @@ TextureImporter:
       name: Car_SLV_PL_SW
       rect:
         serializedVersion: 2
-        x: 1364
-        y: 1728
+        x: 1365
+        y: 1727
         width: 200
         height: 200
       alignment: 9
@@ -611,7 +611,7 @@ TextureImporter:
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -628,11 +628,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 10
-        y: 1936
+        y: 1935
         width: 200
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -645,15 +645,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vehicle_SpriteSheet_Practice_18
+      name: Car_RED_PL_N
       rect:
         serializedVersion: 2
-        x: 235
+        x: 237
         y: 2153
         width: 200
         height: 198
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -666,15 +666,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vehicle_SpriteSheet_Practice_19
+      name: Car_RED_NL_N
       rect:
         serializedVersion: 2
-        x: 261
-        y: 1967
-        width: 141
-        height: 167
+        x: 237
+        y: 1935
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -682,6 +682,258 @@ TextureImporter:
       bones: []
       spriteID: 6bfdd19f4758f93b0800000000000000
       internalID: -5503533482181271626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_RED_PL_NE
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 2154
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2a9c7cb50756e00800000000000000
+      internalID: 1037358828674982618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_RED_NL_NE
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1935
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879edc4c3969c0cb0800000000000000
+      internalID: -4896373133452383880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_RED_PL_E
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 2154
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7b42f7940f8afb0800000000000000
+      internalID: -4636191617921534023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_RED_NL_E
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1935
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75f8204d08b345a0800000000000000
+      internalID: -6538179866961316481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_RED_PL_SE
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 2154
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d98bb4b3f7ca9b0800000000000000
+      internalID: -5067535588048462468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_RED_NL_SE
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1935
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabfc84e46c997a10800000000000000
+      internalID: 1907727874313223087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_RED_PL_S
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 2154
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a62d5e386cd84ef0800000000000000
+      internalID: -123606649471687005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_RED_NL_S
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1935
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c016a36a711c880800000000000000
+      internalID: -8592560611334747107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_RED_PL_SW
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 2154
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a686ecba8ae5460800000000000000
+      internalID: 7232403507459418687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_RED_NL_SW
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1936
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36ddbc37157b6760800000000000000
+      internalID: 7452178751078389306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_RED_PL_W
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 2154
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b7f281e74cc72e0800000000000000
+      internalID: -2126608878175028394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_RED_NL_W
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1935
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60b263363a293d30800000000000000
+      internalID: 4411603722264817771
       vertices: []
       indices: 
       edges: []
