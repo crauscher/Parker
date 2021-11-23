@@ -23,7 +23,7 @@ public class TaskNumberScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    // Most of these values are set in taskController.cs
+    // Most of these values are set in ../camera/taskController.cs
     void Update()
     {
 

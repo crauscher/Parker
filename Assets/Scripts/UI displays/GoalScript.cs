@@ -5,17 +5,18 @@ using UnityEngine.UI;
 
 public class GoalScript : MonoBehaviour
 {
-     Text GoalDisplay;
+    public Text GoalDisplay;
 
-    public static string currentGoal = "Somewhere";   // This may be redundant with "destination"
+    public static string currentGoal = "Snazzy!";   // This may be redundant with "destination"
 
     // Start is called before the first frame update
     void Start()
     {
         GoalDisplay = GetComponent<Text> ();   
+     //   currentGoal.text="Somewhere";
     }
 
-    // Update is called once per frame
+    // Update is called once per frames
     void Update()
     {
         GoalDisplay.text = "Next goal: " + currentGoal;
