@@ -30,7 +30,7 @@ public class TaskNumberScript : MonoBehaviour
         TaskDisplay.text = ("Task " + taskNumber + " of " + taskCount + "\n" +
                             "Title: " + taskString + "\n" +
                             "Dest slot: " + taskDestination + "\n" +
-                            "Section:" + taskSectionSlot + "\n" +
+                            "Section:" + taskSectionSlot + "\n" +      // Set in task.cs and taskController.cs
                             "Task Time: " + taskTime + " seconds\n" +
                             "Payout: $" + taskPayout );
     }

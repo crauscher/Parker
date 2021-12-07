@@ -10,9 +10,7 @@ public class UpdateButtonScript : MonoBehaviour
         
     public void OnButtonPress() {
 
-        //      LevelScript.currentLevel++;   // This will update the Level number
     CarsRemainingScript.currentCarsRemaining--;  // Updates the number of cars to go
-        //      GoalScript.currentGoal = "return to start";  // Set the next goal
     TipsScript.Tips += 5;  // Increase tips by some amount
     tc.SetNextTask();
 

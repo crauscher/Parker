@@ -29,7 +29,6 @@ public class ExitParkingLot : MonoBehaviour
        //  hc.AddMessageToQueue("Next goal: B7");
       
         CarsRemainingScript.currentCarsRemaining--;  // Updates the number of cars to go
-        GoalScript.currentGoal = "B7";  // Set the next goal
         TipsScript.Tips += 5;  // Increase tips by some amount
 
 

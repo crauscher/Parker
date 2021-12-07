@@ -93,6 +93,7 @@ public class AttendantSensor : MonoBehaviour
         itemHit.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
         CamFocus.SetValue(itemHit.gameObject);      // swap focus to vehicle
         this.gameObject.SetActive(false);           // deactivate attendant
+        GoalScript.currentGoal = "Take car to exit.";
     }
     private void FoundWrongCar()
     {

@@ -31,7 +31,7 @@ public class VehicleSensor : MonoBehaviour
         
             if (CarsRemainingScript.currentCarsRemaining > 1) {
                  CarsRemainingScript.currentCarsRemaining--;  // Updates the number of cars to go
-                 GoalScript.currentGoal = "Space A34?";  // Set the next goal
+
                  TipsScript.Tips += 27;  // Add tips (junk value for now, will be more specific later)
                  TimerScript.timeLeft = 107f;
             }

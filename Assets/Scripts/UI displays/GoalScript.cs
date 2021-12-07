@@ -19,7 +19,8 @@ public class GoalScript : MonoBehaviour
     // Update is called once per frames
     void Update()
     {
-        GoalDisplay.text = "Next goal: " + currentGoal;
+        GoalDisplay.text = "Next goal: " + currentGoal;  // Set in several other scripts such as VehicleSensor.cs,
+                                                         //    UpdateButtonScript.cs and UIManager.cs
     }
 }
 
