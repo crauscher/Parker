@@ -7390,6 +7390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cde52ef95f6208344956693928844689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GoalDisplay: {fileID: 0}
 --- !u!1 &411495684
 GameObject:
   m_ObjectHideFlags: 0
@@ -7553,7 +7554,7 @@ PrefabInstance:
     - target: {fileID: 7681047475732994475, guid: 7e10b1d0e35f443cebbf1cb7ad895f94,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7681047475732994475, guid: 7e10b1d0e35f443cebbf1cb7ad895f94,
         type: 3}
@@ -8899,6 +8900,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   TN_object: {fileID: 501800795}
+  Goal_object: {fileID: 0}
   currentTask: 0
   noMoreTasks: 0
   keyNumber: 0
@@ -11021,7 +11023,7 @@ Transform:
   - {fileID: 411495685}
   - {fileID: 262244433}
   m_Father: {fileID: 933586850}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &651303077
 PrefabInstance:
@@ -14541,10 +14543,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 644419657}
   - {fileID: 1745563809}
   - {fileID: 1445908820}
   - {fileID: 270615402}
-  - {fileID: 644419657}
   - {fileID: 229018306}
   - {fileID: 2100067562}
   - {fileID: 237009056}
@@ -17069,7 +17071,7 @@ PrefabInstance:
     - target: {fileID: 7681047475732994475, guid: f51052ea8e3264bf7a52c6a7392c7850,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7681047475732994475, guid: f51052ea8e3264bf7a52c6a7392c7850,
         type: 3}
@@ -19479,7 +19481,7 @@ PrefabInstance:
     - target: {fileID: 7681047475732994475, guid: f51052ea8e3264bf7a52c6a7392c7850,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7681047475732994475, guid: f51052ea8e3264bf7a52c6a7392c7850,
         type: 3}
@@ -19711,7 +19713,7 @@ RectTransform:
   m_Children:
   - {fileID: 3509582}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 23.659}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -19904,10 +19906,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 920383156}
     m_Modifications:
+    - target: {fileID: 3630994019864870598, guid: 4247f6262bb40406fa7647be565c77d9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6090425264663218970, guid: 4247f6262bb40406fa7647be565c77d9,
         type: 3}
       propertyPath: m_Name
       value: MapSign (A3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630015507338442095, guid: 4247f6262bb40406fa7647be565c77d9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7827184072815822818, guid: 4247f6262bb40406fa7647be565c77d9,
         type: 3}
@@ -19963,6 +19975,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893887422565543514, guid: 4247f6262bb40406fa7647be565c77d9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4247f6262bb40406fa7647be565c77d9, type: 3}
@@ -20448,7 +20465,7 @@ Transform:
   - {fileID: 1967805618}
   - {fileID: 475161293}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1330382535
 PrefabInstance:
@@ -20800,7 +20817,7 @@ PrefabInstance:
     - target: {fileID: 7681047475732994475, guid: f1df443099bb746e798d27b686cafa55,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7681047475732994475, guid: f1df443099bb746e798d27b686cafa55,
         type: 3}
