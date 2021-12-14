@@ -52,8 +52,6 @@ public class TimerScript : MonoBehaviour
             
                         timeDisplay.text = "Time's up :(";
 
-                 //       if (GoalScript.currentGoal != "Get a key!") {  // Only do this next part once, not every Update
-                   //         GoalScript.currentGoal = "Get a key!";
 
 
                             // If driving  (how do we tell if they are driving car or not?)
@@ -90,7 +88,7 @@ public class TimerScript : MonoBehaviour
                             // Other stuff
 
                            TipsScript.Tips -= 5; // Will check for zero later
-                   //     }
+
 
 
 

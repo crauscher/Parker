@@ -70,7 +70,7 @@ public class taskController : MonoBehaviour
 
         nextGoal=tasks[currentTask].GetSectionSlot();  // Set the next goal here
         TN_Script.taskSectionSlot = nextGoal;
-        GoalScript.currentGoal = "Get car in " + nextGoal;
+        GoalScript.currentGoal = nextGoal;
     }
 
 }
