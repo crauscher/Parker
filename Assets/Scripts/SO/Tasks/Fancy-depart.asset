@@ -17,5 +17,5 @@ MonoBehaviour:
   originSlot: 0
   destinationSlot: 999
   taskSectionSlot: A3
-  taskTime: 85
+  taskTime: 90
   taskPayout: 100

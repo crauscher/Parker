@@ -42707,7 +42707,7 @@ PrefabInstance:
     - target: {fileID: 6294485570210433874, guid: 583af1622b23937438317c28c4316338,
         type: 3}
       propertyPath: slotSection
-      value: 3
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7433055906318187438, guid: 583af1622b23937438317c28c4316338,
         type: 3}
