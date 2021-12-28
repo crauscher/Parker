@@ -15,7 +15,7 @@ MonoBehaviour:
   taskText: Find Madame Trio's car
   keyNum: 3
   originSlot: 0
-  destinationSlot: 3
+  destinationSlot: 999
   taskSectionSlot: A3
   taskTime: 240
   taskPayout: 9

@@ -51,9 +51,9 @@ public class AttendantSensor : MonoBehaviour
             CheckKeyFitsLock();
         }
      }
-    private void GetCarKey() 
+    private void GetCarKey()            // Gets the key number that the player is currently carrying (?)
     {
-        carkey = tc.GetKeyNumber();
+        carkey = tc.GetKeyNumber();     // Run method on TaskController script
         if (carkey > 0)
         {
             hasKey = true;
@@ -99,5 +99,7 @@ public class AttendantSensor : MonoBehaviour
     {
         hc.AddMessageToQueue("Your key doesn't work on this car! The car you want is in " + 
             GoalScript.currentGoal + "."); // send message "Wrong key."
+
+            // Add code here to make the correct vehicle's lights flash
     }
 }

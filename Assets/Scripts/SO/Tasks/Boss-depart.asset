@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Boss-depart
   m_EditorClassIdentifier: 
   taskText: Find the Boss's car
-  taskTime: 180
+  taskTime: 45
   taskPayout: 5000
   taskComplete: 0
-  keyNum: 5
-  destinationSlot: 5
-  slotSection: B1
+  keyNum: 4
+  destinationSlot: 999
+  slotSection: C4

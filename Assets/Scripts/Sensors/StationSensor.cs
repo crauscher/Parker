@@ -22,6 +22,23 @@ public class StationSensor : MonoBehaviour
         if(other.gameObject.tag =="Attendant")    // The attendant has collided with the parking station
         {
             ge_CheckIn?.Raise();        // if there is a game event "Check In", then raise (broadcast) the event.
+
+                                        // (One of the) listener(s) is on the HUD object which responds by
+                                        //   adding a message to the queue from the object
+                                        //
+                                        // Further code needed:
+                                        //
+                                        //   Find out if the player has a key in hand or not
+                                        //
+                                        // * Only go to ge_CheckIn if the player is actually checking a car in (as opposed to running into it randomly)
+                                        // * Handle other possible events:
+                                        // ** OnDuty
+                                        // ** Add Key
+                                        // ** Remove Key
+                                        // ** Last Key
+                                        // ** No More Keys
+                                        // ** CamFocus
+
             // AwakenAttendant
         }
     }

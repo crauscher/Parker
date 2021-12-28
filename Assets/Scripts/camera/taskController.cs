@@ -11,7 +11,7 @@ public class taskController : MonoBehaviour
     private TaskNumberScript TN_Script;                 // reference to the task number script
     private string nextGoal;
 
-    // The above list can be seen in Scripts/SO/Tasks. Tasks must be created there as objects, and also
+    // The above list can be seen in Scripts/SO/Tasks. Tasks there were created as objects, and also
     //   added as elements to the Task Controller script object on the Main Camera by dragging them from
     //   ../SO/Tasks to the Tasks array.
     // The task field definitions are in Scripts/SO/SO Definitions/Task.cs
@@ -53,8 +53,8 @@ public class taskController : MonoBehaviour
         DisplayTaskInfo();
     }
 
-    public int GetKeyNumber() { 
-        keyNumber = tasks[currentTask].GetKeyNumber();
+    public int GetKeyNumber() {                                  // Get key # that character is currently carrying
+        keyNumber = tasks[currentTask].GetKeyNumber();           //  If they are on a task, they have that task's key
         KeyNumberScript.key = keyNumber;  // Display on HUD
         return keyNumber; 
     }
