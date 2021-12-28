@@ -26,7 +26,8 @@ public class VehicleSensor : MonoBehaviour
                                        // Main Camera == SetNextTask (in Task Controller)
                                        // Station == AwakenAttendant (in StationSensor)
                                        // ** NEED TO ADD Timer Reset
-
+            Debug.Log("About to remove car. CarsRemaining = " + CarsRemainingScript.currentCarsRemaining);
+            
             Destroy(this.gameObject);  // Get rid of the car
         
             if (CarsRemainingScript.currentCarsRemaining > 1) {
