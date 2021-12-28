@@ -10,7 +10,7 @@ public class CarsRemainingScript : MonoBehaviour
     Text CarsDisplay;
     private taskController tc;
 
-    public static int currentCarsRemaining = 5;
+    public static int currentCarsRemaining = 3;
 
     // Start is called before the first frame update
     void Start()

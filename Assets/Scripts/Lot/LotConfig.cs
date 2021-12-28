@@ -96,6 +96,6 @@ public class LotConfig : MonoBehaviour
     }
 }
 
-public enum sectionEnum { FRONT, A1, A2, A3, A4, A5, B1, B2, C1, C2, D1, D2, D3, D4, D5, S1, S2, S3, S4, S5, S6, S7};
+public enum sectionEnum { FRONT, A1, A2, A3, A4, A5, B1, B2, C1, C2, C3, C4, D1, D2, D3, D4, D5, S1, S2, S3, S4, S5, S6, S7};
 public enum roleEnum { EMPTY, VALET, PAID, ENTRY, EXIT };
 public enum orientationEnum { N, NW, W, SW, S, SE, E, NE };

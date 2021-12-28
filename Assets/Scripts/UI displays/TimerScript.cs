@@ -18,14 +18,12 @@ public class TimerScript : MonoBehaviour
         timeDisplay.color = Color.green;
         timeDisplay.text = timeString;
 
-        timeLeft = 45.0f;
+        timeLeft = 45.0f;   // 45 seconds by default at start
 				
 
     }
 
-    // Update is called once per frame
-
-    void Update()
+    void Update()        // Update is called once per frame
     {
         if (timeLeft > 0)
         {
@@ -37,7 +35,7 @@ public class TimerScript : MonoBehaviour
             // format time as text
             timeString = Float2Text(minutes) + ":" + Float2Text(seconds);
 
-                        // warning mode
+                                                                           // warning mode
             if (minutes < 1)
             {
                 timeDisplay.color = Color.red; 
@@ -52,17 +50,7 @@ public class TimerScript : MonoBehaviour
             
                         timeDisplay.text = "Time's up :(";
 
-
-
                             // If driving  (how do we tell if they are driving car or not?)
-                        //    if (attendantSensor.hasKey == false) {
-                   //             Debug.Log("HasKey is false");
-                      //      } else {
-                       //         Debug.Log("HasKey is true.");
-                        //    }
-
-                                // Does pressing arrow key move car or player?
-
 
                                 // Return car  - What is the location of the first car? Does it need a tag?
 
@@ -89,10 +77,6 @@ public class TimerScript : MonoBehaviour
 
                            TipsScript.Tips -= 5; // Will check for zero later
 
-
-
-
-
                     }
                 }
             }
@@ -112,9 +96,6 @@ public class TimerScript : MonoBehaviour
             Debug.Log("Time is at zero...");
             timeLeft = 0;
         }
-
-
-    
     }
 
     private string Float2Text(float num)
