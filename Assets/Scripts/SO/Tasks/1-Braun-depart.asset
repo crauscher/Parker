@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0ddee96dbc7cf94094aef0da2c1eecc, type: 3}
-  m_Name: Hiwot-depart
+  m_Name: 1-Braun-depart
   m_EditorClassIdentifier: 
-  taskText: Get Ms. Hiwot's car
-  keyNum: 4
+  taskText: Get Ms. Braun's  car
+  keyNum: 2
   originSlot: 0
-  destinationSlot: 0
-  taskSectionSlot: C4
+  destinationSlot: 999
+  taskSectionSlot: A3
   taskTime: 50
-  taskPayout: 50
+  taskPayout: 25

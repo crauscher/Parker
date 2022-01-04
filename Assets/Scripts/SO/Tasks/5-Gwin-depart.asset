@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0ddee96dbc7cf94094aef0da2c1eecc, type: 3}
-  m_Name: Bosscar-depart
+  m_Name: 5-Gwin-depart
   m_EditorClassIdentifier: 
-  taskText: Get the big Boss's car
-  keyNum: 6
+  taskText: Get Lord Gwin'rhich's chariot
+  keyNum: 5
   originSlot: 0
   destinationSlot: 0
   taskSectionSlot: A2
-  taskTime: 50
-  taskPayout: 5000
+  taskTime: 30
+  taskPayout: 95

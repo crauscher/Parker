@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0ddee96dbc7cf94094aef0da2c1eecc, type: 3}
-  m_Name: Trio-depart
+  m_Name: 3-Yaeger-depart
   m_EditorClassIdentifier: 
-  taskText: Find Madame Trio's car
+  taskText: Find Captain Yaeger's car
   keyNum: 3
   originSlot: 0
   destinationSlot: 999
   taskSectionSlot: A3
-  taskTime: 240
-  taskPayout: 9
+  taskTime: 45
+  taskPayout: 75

@@ -30,10 +30,11 @@ public class VehicleSensor : MonoBehaviour
             
             Destroy(this.gameObject);  // Get rid of the car
         
+            // Tips are updated in 
+            
             if (CarsRemainingScript.currentCarsRemaining > 1) {
                  CarsRemainingScript.currentCarsRemaining--;  // Updates the number of cars to go
 
-                 TipsScript.Tips += 27;  // Add tips (junk value for now, will be more specific later)
                  TimerScript.timeLeft = 107f;
             }
             else {

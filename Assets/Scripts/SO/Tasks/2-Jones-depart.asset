@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0ddee96dbc7cf94094aef0da2c1eecc, type: 3}
-  m_Name: Gwin-depart
+  m_Name: 2-Jones-depart
   m_EditorClassIdentifier: 
-  taskText: Get Lord Gwin'rhich's chariot
-  keyNum: 5
+  taskText: Retrieve Mr. Jones's car
+  keyNum: 1
   originSlot: 0
-  destinationSlot: 0
-  taskSectionSlot: A2
-  taskTime: 100
-  taskPayout: 54
+  destinationSlot: 999
+  taskSectionSlot: B2
+  taskTime: 60
+  taskPayout: 36

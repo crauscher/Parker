@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0ddee96dbc7cf94094aef0da2c1eecc, type: 3}
-  m_Name: Jones-depart
+  m_Name: 4-Hiwot-depart
   m_EditorClassIdentifier: 
-  taskText: Retrieve Mr. Jones's car
-  keyNum: 1
+  taskText: Get Ms. Hiwot's car
+  keyNum: 4
   originSlot: 0
-  destinationSlot: 999
-  taskSectionSlot: B2
-  taskTime: 90
-  taskPayout: 20
+  destinationSlot: 0
+  taskSectionSlot: C4
+  taskTime: 57
+  taskPayout: 57

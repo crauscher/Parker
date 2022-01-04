@@ -12,10 +12,6 @@ public class ExitParkingLot : MonoBehaviour
      // Start is called before the first frame update
     void Start()
     {
-     //   hud = GameObject.Find("HUD");
-     //     hc = hud.GetComponent<"HUDController">();
-
-     //  hc = hud.GetComponent<HUDController>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)

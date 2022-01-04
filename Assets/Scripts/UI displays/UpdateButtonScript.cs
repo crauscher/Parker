@@ -11,7 +11,7 @@ public class UpdateButtonScript : MonoBehaviour
     public void OnButtonPress() {
 
     CarsRemainingScript.currentCarsRemaining--;  // Updates the number of cars to go
-    TipsScript.Tips += 5;  // Increase tips by some amount
+   // TipsScript.Tips += 5;  // Increase tips by some amount
     tc.SetNextTask();
 
     }

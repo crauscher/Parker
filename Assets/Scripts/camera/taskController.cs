@@ -40,6 +40,7 @@ public class taskController : MonoBehaviour
     {
         tasks[currentTask].SetTaskComplete();
         Debug.Log("TaskController: Setting task #" + currentTask + " complete."); // Might be better in task.cs
+        TipsScript.Tips += tasks[currentTask].GetTaskPayout();
 
         if (currentTask<(tasks.Count-1) && !noMoreTasks)
         {

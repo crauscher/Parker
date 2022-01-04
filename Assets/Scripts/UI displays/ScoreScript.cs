@@ -60,14 +60,6 @@ public class ScoreScript : MonoBehaviour
             secondsString = "0" + seconds.ToString();
         }
         else secondsString = seconds.ToString();
-
-       // score.text = " Level " + LevelValue + " - Tips: $" + TipsValue + 
-        //  " - Damage: " + DamageValue +"% - Cars remaining: " + CarsRemaining;
-          
-         // timer.Text ="Timer: " + minutesString + ":" + secondsString;
-
-
-
         
     }
 

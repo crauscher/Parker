@@ -8,13 +8,12 @@ public class TipsScript : MonoBehaviour
     [SerializeField] private Text MessageDisplay;
     Text TipsDisplay;
 
-    public static int Tips = 0;
+    public static int Tips = 0;    // This is incremented from the VehicleSensor script
 
     // Start is called before the first frame update
     void Start()
     {
         TipsDisplay = GetComponent<Text>();
-
     }
 
     // Update is called once per frame
@@ -29,7 +28,7 @@ public class TipsScript : MonoBehaviour
             MessageDisplay.text = "Awesome! You have $" + Tips + " in tips!";
            // addMessageToQueue("Awesome!You have $" + Tips + " in tips!");
         }
-        TipsDisplay.text = "Tips :$ " + Tips;
+        TipsDisplay.text = "Tips so far: $" + Tips;
     }
 
     public void addMessageToQueue(string message)
