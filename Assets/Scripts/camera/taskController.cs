@@ -56,6 +56,7 @@ public class taskController : MonoBehaviour
     public int GetKeyNumber() {                                  // Get key # that character is currently carrying
         keyNumber = tasks[currentTask].GetKeyNumber();           //  If they are on a task, they have that task's key
         KeyNumberScript.key = keyNumber;  // Display on HUD
+        Debug.Log("New key number is " + keyNumber);
         return keyNumber; 
     }
 

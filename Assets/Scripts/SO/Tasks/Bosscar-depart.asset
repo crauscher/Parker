@@ -9,13 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3d0f0f4e471f4e3b8c60d612613fd9d, type: 3}
-  m_Name: Yaeger-depart
+  m_Script: {fileID: 11500000, guid: d0ddee96dbc7cf94094aef0da2c1eecc, type: 3}
+  m_Name: Bosscar-depart
   m_EditorClassIdentifier: 
-  taskText: Find Ms. Yaeger's car
-  taskTime: 60
-  taskPayout: 25
-  taskComplete: 0
-  keyNum: 5
-  destinationSlot: 999
-  slotSection: A2
+  taskText: Get the big Boss's car
+  keyNum: 6
+  originSlot: 0
+  destinationSlot: 0
+  taskSectionSlot: A2
+  taskTime: 50
+  taskPayout: 5000

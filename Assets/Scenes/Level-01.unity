@@ -8915,8 +8915,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: efa05c6faf671d241bda1dec60fdfc95, type: 2}
   - {fileID: 11400000, guid: 125455bab6a7a5f44bd6f137294abb3f, type: 2}
   - {fileID: 11400000, guid: 987f24b4a66d40a47a422aee6bc0f101, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 987f24b4a66d40a47a422aee6bc0f101, type: 2}
+  - {fileID: 11400000, guid: 987f24b4a66d40a47a422aee6bc0f101, type: 2}
+  - {fileID: 11400000, guid: 987f24b4a66d40a47a422aee6bc0f101, type: 2}
   TN_object: {fileID: 501800795}
   Goal_object: {fileID: 0}
   currentTask: 0
