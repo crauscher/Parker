@@ -607,7 +607,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 10
-        y: 2160
+        y: 2165
         width: 200
         height: 200
       alignment: 0
@@ -858,7 +858,7 @@ TextureImporter:
       name: Car_RED_PL_SW
       rect:
         serializedVersion: 2
-        x: 1363
+        x: 1360
         y: 2160
         width: 200
         height: 200
