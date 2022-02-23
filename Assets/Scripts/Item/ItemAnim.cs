@@ -66,10 +66,12 @@ public class ItemAnim : MonoBehaviour
             anim.SetFloat("changeX", input.x);
             anim.SetFloat("changeY", input.y);
             anim.SetBool("isMoving", true);
+            Debug.Log("Item is moving.");
         }
         else
         {
             anim.SetBool("isMoving", false);
+            Debug.Log("Item not moving.");
         }
     }
 

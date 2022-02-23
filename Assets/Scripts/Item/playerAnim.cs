@@ -62,10 +62,12 @@ public class playerAnim : MonoBehaviour
             anim.SetFloat("changeX", _input.x);
             anim.SetFloat("changeY", _input.y);
             anim.SetBool("isMoving", true);
+            Debug.Log("Player is moving.");
         }
         else
         {
             anim.SetBool("isMoving", false);
+            Debug.Log("Player is not moving.");
         }
     }
 }
