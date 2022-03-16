@@ -80,7 +80,7 @@ public class ItemAnim : MonoBehaviour
     {
         Vector2 _impulse;
         var empty = 0.0f;
-        var half = 0.7f;
+        //var half = 0.7f;
         var full = 1.0f;
 
         switch (facing)
@@ -89,22 +89,22 @@ public class ItemAnim : MonoBehaviour
                 _impulse = new Vector2(empty, full);
                 break;
             case "NW":
-                _impulse = new Vector2(-half, half);
+                _impulse = new Vector2(-full, full);
                 break;
             case "W":
                 _impulse = new Vector2(-full, empty);
                 break;
             case "SW":
-                _impulse = new Vector2(-half, -half);
+                _impulse = new Vector2(-full, -full);
                 break;
             case "SE":
-                _impulse = new Vector2(half, -half);
+                _impulse = new Vector2(full, -full);
                 break;
             case "E":
                 _impulse = new Vector2(full, empty);
                 break;
             case "NE":
-                _impulse = new Vector2(half, half);
+                _impulse = new Vector2(full, full);
                 break;
             default:
                 _impulse = new Vector2(empty, -full);
