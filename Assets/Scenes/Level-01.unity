@@ -1132,7 +1132,7 @@ Animator:
   m_GameObject: {fileID: 71579807}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 80b7913f38bdf488bb5ef544a9514790, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5877e81b1dc92a948a04c574caf18f9f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -11129,6 +11129,11 @@ PrefabInstance:
     - target: {fileID: 2966291699522621660, guid: ab20ded424396f343bf21d5f6e20870b,
         type: 3}
       propertyPath: startingSlotID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2991974731863236506, guid: ab20ded424396f343bf21d5f6e20870b,
+        type: 3}
+      propertyPath: isFlashing
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7935759734809961855, guid: ab20ded424396f343bf21d5f6e20870b,
@@ -37718,7 +37723,7 @@ PrefabInstance:
     - target: {fileID: 1604699785825117051, guid: e19546e41d458490ab8f81df02e78e8e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1604699785825117051, guid: e19546e41d458490ab8f81df02e78e8e,
         type: 3}
@@ -42638,7 +42643,7 @@ PrefabInstance:
     - target: {fileID: 4842774982610329488, guid: 583af1622b23937438317c28c4316338,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4842774982610329488, guid: 583af1622b23937438317c28c4316338,
         type: 3}

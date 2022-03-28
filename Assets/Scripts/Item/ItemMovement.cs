@@ -59,4 +59,8 @@ public class ItemMovement : MonoBehaviour
     { 
         return ic.GetInput();
     }
+    public bool GetJump()
+    {
+        return ic.GetJump();
+    }
 }

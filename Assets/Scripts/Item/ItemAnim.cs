@@ -9,6 +9,7 @@ public class ItemAnim : MonoBehaviour
 
     // state variables
     public string facing;
+    public bool isFlashing;
 
     // cached references
     private Animator anim;
@@ -29,6 +30,7 @@ public class ItemAnim : MonoBehaviour
         {
             Vector2 _moveinput = movement.GetMoveInput();
             SetFacing(_moveinput);
+            checkLights();
             UpdateAnimation(_moveinput);
         }
     }
@@ -58,6 +60,23 @@ public class ItemAnim : MonoBehaviour
 
         int _stepCount = Mathf.FloorToInt(_angle / _step);  // counterclockwise slice by 8
         return directions[_stepCount];
+    }
+    private void checkLights()
+    {
+        bool lightswitch = movement.GetJump(); 
+        
+        if (lightswitch && !isFlashing)
+        {
+            anim.SetBool("isFlashing", true);
+            Debug.Log("Lights are on.");
+            isFlashing = true;
+        }
+        else if (lightswitch && isFlashing)
+        {
+            anim.SetBool("isFlashing", false);
+            Debug.Log("Lights are off.");
+            isFlashing = false;
+        }
     }
     private void UpdateAnimation(Vector2 input)
     {
