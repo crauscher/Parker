@@ -27,6 +27,7 @@ public class playerAnim : MonoBehaviour
     {
         input = pm.GetInput();
         SetFacing(input);
+        Debug.Log("Updating player animation.");
         UpdateAnimation(input);
     }
 
@@ -35,6 +36,7 @@ public class playerAnim : MonoBehaviour
         if (_input.magnitude >= pm.minSpeed)  // avatar is idle
         {
             facing = DirectionToIndex(_input);
+            Debug.Log("Player Anim Facing: " + facing);
         }
     }
 
@@ -57,6 +59,7 @@ public class playerAnim : MonoBehaviour
 
     public void UpdateAnimation(Vector2 _input)
     {
+        Debug.Log("Player animation being updated.");
         if (_input != Vector2.zero)
         {
             anim.SetFloat("changeX", _input.x);

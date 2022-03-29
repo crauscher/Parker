@@ -90,9 +90,13 @@ public class AttendantSensor : MonoBehaviour
     {
         hasKey = false;
         hc.AddMessageToQueue("You found the right car!");          // send message "Found it!"
+
+
         itemHit.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
         CamFocus.SetValue(itemHit.gameObject);      // swap focus to vehicle
         this.gameObject.SetActive(false);           // deactivate attendant
+
+
         GoalScript.currentGoal = "Take car to exit.";
     }
     private void FoundWrongCar()
