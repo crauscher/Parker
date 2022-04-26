@@ -68,13 +68,13 @@ public class ItemAnim : MonoBehaviour
         if (lightswitch && !isFlashing)
         {
             anim.SetBool("isFlashing", true);
-            Debug.Log("Lights are on.");
+         //   Debug.Log("Lights are on.");
             isFlashing = true;
         }
         else if (lightswitch && isFlashing)
         {
             anim.SetBool("isFlashing", false);
-            Debug.Log("Lights are off.");
+         //   Debug.Log("Lights are off.");
             isFlashing = false;
         }
     }
@@ -85,12 +85,12 @@ public class ItemAnim : MonoBehaviour
             anim.SetFloat("changeX", input.x);
             anim.SetFloat("changeY", input.y);
             anim.SetBool("isMoving", true);
-            Debug.Log("Item is moving.");
+          //  Debug.Log("Item is moving.");
         }
         else
         {
             anim.SetBool("isMoving", false);
-            Debug.Log("Item not moving.");
+           // Debug.Log("Item not moving.");
         }
     }
 

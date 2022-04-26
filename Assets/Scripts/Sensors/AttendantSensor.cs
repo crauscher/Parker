@@ -13,6 +13,9 @@ public class AttendantSensor : MonoBehaviour
     private ItemFocus target;
     private GameObject itemHit;
 
+    public GameObject[] vehicles;    // Array of objects that have the "vehicle" tag
+    public GameObject possibleCar;
+
 
     // cached references
     [SerializeField] private ObjectValue CamFocus;
@@ -23,7 +26,10 @@ public class AttendantSensor : MonoBehaviour
     {
         tc = FindObjectOfType<taskController>();
         hc = FindObjectOfType<HUDController>();
-        
+
+  
+            vehicles = GameObject.FindGameObjectsWithTag("Vehicle");
+
     }
     void Update() 
     {
@@ -64,7 +70,7 @@ public class AttendantSensor : MonoBehaviour
         var _focus = itemHit.GetComponent<ItemFocus>();
         if (_focus)
         {
-            carlock = _focus.GetItemID();
+            carlock = _focus.GetItemID();      // The carlock is the collided object's itemID
             return true;
         }
         else
@@ -75,15 +81,32 @@ public class AttendantSensor : MonoBehaviour
     }
     private void CheckKeyFitsLock()
     {
-        if (carlock == carkey)                                  
+        if (carlock == carkey)        // Carkey is from the current task.  carlock is from the collided object's itemID                          
         {
-            ge_RightVehicle?.Raise();
+            ge_RightVehicle?.Raise();    // Tell the rest of the game that the right vehicle was found
             FoundRightCar();
         }
         else
         {
-            ge_WrongVehicle?.Raise();
-            FoundWrongCar();
+            ge_WrongVehicle?.Raise();    // Tell the rest of the game that the wrong vehicle was found
+            FoundWrongCar();             // Display message to player about how it's the wrong car
+            
+            // Add code here to make the correct vehicle's lights flash
+            // Hardcode itemID associated with correct car?
+            // To start, the player is in Task 1, with Key #2, and they are looking for the car with itemID 2 (from slotID2)
+            // If we have gotten to this point, we should make itemID #2 car's lights flash
+            // How to find the car?
+            // Set its anim bool isFlashing to true
+
+            foreach (GameObject possibleCar in vehicles)
+            {
+
+                 CheckFoundTarget(possibleCar);
+                 Debug.Log("Found a car: " + carlock);
+
+            }
+
+
         }
     }
     private void FoundRightCar() 
@@ -100,6 +123,5 @@ public class AttendantSensor : MonoBehaviour
         hc.AddMessageToQueue("Your key doesn't work on this car! The car you want is in " + 
             GoalScript.currentGoal + "."); // send message "Wrong key."
 
-            // Add code here to make the correct vehicle's lights flash
     }
 }
