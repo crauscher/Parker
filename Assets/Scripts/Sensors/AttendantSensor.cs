@@ -12,6 +12,7 @@ public class AttendantSensor : MonoBehaviour
     [SerializeField] private bool hasKey, foundTarget = false;
     private ItemFocus target;
     private GameObject itemHit;
+    private Animator anim;
 
     public GameObject[] vehicles;    // Array of objects that have the "vehicle" tag
     public GameObject possibleCar;
@@ -103,6 +104,24 @@ public class AttendantSensor : MonoBehaviour
 
                  CheckFoundTarget(possibleCar);
                  Debug.Log("Found a car: " + carlock);
+
+                 anim = possibleCar.GetComponent<Animator>();
+                
+                 if (carlock == carkey) {
+                     Debug.Log("*** Correct car! ***");
+
+/* 
+                     anim.Controller = "PAW_1";  // Can we use the next line to something like <--- this line?
+                      animator.runtimeAnimatorController = (RuntimeAnimatorController)Resources.Load("Animation/Char1Animator.controller", typeof(RuntimeAnimatorController ));
+                      */
+
+
+                   anim.SetBool("isFlashing", true);
+                 } else {
+
+                     anim.SetBool("isFlashing", false);
+
+                 }
 
             }
 
