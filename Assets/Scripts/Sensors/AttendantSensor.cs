@@ -47,6 +47,10 @@ public class AttendantSensor : MonoBehaviour
         {
             itemHit = other.gameObject;
             foundTarget = CheckFoundTarget(itemHit);
+
+
+            anim = itemHit.GetComponent<Animator>(); //Can we turn lights on by touching any car? How do we tell it's even a car?
+            anim.SetBool("isFlashing", true);
         }
         else
         {
@@ -92,6 +96,7 @@ public class AttendantSensor : MonoBehaviour
             ge_WrongVehicle?.Raise();    // Tell the rest of the game that the wrong vehicle was found
             FoundWrongCar();             // Display message to player about how it's the wrong car
             
+
             // Add code here to make the correct vehicle's lights flash
             // Hardcode itemID associated with correct car?
             // To start, the player is in Task 1, with Key #2, and they are looking for the car with itemID 2 (from slotID2)
@@ -103,23 +108,16 @@ public class AttendantSensor : MonoBehaviour
             {
 
                  CheckFoundTarget(possibleCar);
-                 Debug.Log("Found a car: " + carlock);
+                 // Debug.Log("Found a car: " + carlock);
 
-                 anim = possibleCar.GetComponent<Animator>();
+
                 
-                 if (carlock == carkey) {
-                     Debug.Log("*** Correct car! ***");
-
-/* 
-                     anim.Controller = "PAW_1";  // Can we use the next line to something like <--- this line?
-                      animator.runtimeAnimatorController = (RuntimeAnimatorController)Resources.Load("Animation/Char1Animator.controller", typeof(RuntimeAnimatorController ));
-                      */
-
-
-                   anim.SetBool("isFlashing", true);
+                 if (carlock == carkey) {   // Correct car
+                  //  anim = possibleCar.GetComponent<Animator>();
+                  //  anim.SetBool("isFlashing", true);
                  } else {
 
-                     anim.SetBool("isFlashing", false);
+                 //    anim.SetBool("isFlashing", true);  // Can we change it at all?
 
                  }
 
