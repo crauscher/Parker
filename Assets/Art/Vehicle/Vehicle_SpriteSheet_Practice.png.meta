@@ -28,28 +28,28 @@ TextureImporter:
     second: Car_SLV_NL_W
   - first:
       213: -2464562581558454997
-    second: Car_SLV_PL_NW
+    second: Car_RED_HL_NW
   - first:
       213: 5193072735775991246
-    second: Car_SLV_PL_N
+    second: Car_RED_HL_N
   - first:
       213: 7106299054264693005
-    second: Car_SLV_PL_NE
+    second: Car_RED_HL_NE
   - first:
       213: -4243607834111153645
-    second: Car_SLV_PL_E
+    second: Car_RED_HL_E
   - first:
       213: 2604605277492147494
-    second: Car_SLV_PL_SE
+    second: Car_RED_HL_SE
   - first:
       213: 6051433671693442455
-    second: Car_SLV_PL_S
+    second: Car_RED_HL_S
   - first:
       213: 9158980819332307793
-    second: Car_SLV_PL_SW
+    second: Car_RED_HL_SW
   - first:
       213: 8377359810140500050
-    second: Car_SLV_PL_W
+    second: Car_RED_HL_W
   - first:
       213: -6288723752990068135
     second: Car_RED_PL_NW
@@ -435,11 +435,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Car_SLV_PL_NW
+      name: Car_RED_HL_NW
       rect:
         serializedVersion: 2
-        x: 11
-        y: 1750
+        x: 0
+        y: 1774
         width: 200
         height: 200
       alignment: 9
@@ -456,11 +456,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Car_SLV_PL_N
+      name: Car_RED_HL_N
       rect:
         serializedVersion: 2
-        x: 244
-        y: 1750
+        x: 200
+        y: 1774
         width: 200
         height: 200
       alignment: 9
@@ -477,11 +477,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Car_SLV_PL_NE
+      name: Car_RED_HL_NE
       rect:
         serializedVersion: 2
-        x: 462
-        y: 1750
+        x: 400
+        y: 1774
         width: 200
         height: 200
       alignment: 9
@@ -498,11 +498,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Car_SLV_PL_E
+      name: Car_RED_HL_E
       rect:
         serializedVersion: 2
-        x: 684
-        y: 1750
+        x: 600
+        y: 1774
         width: 200
         height: 200
       alignment: 9
@@ -519,11 +519,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Car_SLV_PL_SE
+      name: Car_RED_HL_SE
       rect:
         serializedVersion: 2
-        x: 912
-        y: 1750
+        x: 800
+        y: 1774
         width: 200
         height: 200
       alignment: 9
@@ -540,11 +540,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Car_SLV_PL_S
+      name: Car_RED_HL_S
       rect:
         serializedVersion: 2
-        x: 1141
-        y: 1750
+        x: 1000
+        y: 1774
         width: 200
         height: 200
       alignment: 9
@@ -561,11 +561,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Car_SLV_PL_SW
+      name: Car_RED_HL_SW
       rect:
         serializedVersion: 2
-        x: 1365
-        y: 1750
+        x: 1200
+        y: 1774
         width: 200
         height: 200
       alignment: 9
@@ -582,11 +582,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Car_SLV_PL_W
+      name: Car_RED_HL_W
       rect:
         serializedVersion: 2
-        x: 1587
-        y: 1750
+        x: 1400
+        y: 1774
         width: 200
         height: 200
       alignment: 9
@@ -606,8 +606,8 @@ TextureImporter:
       name: Car_RED_PL_NW
       rect:
         serializedVersion: 2
-        x: 10
-        y: 2165
+        x: 0
+        y: 1974
         width: 200
         height: 200
       alignment: 0
@@ -627,8 +627,8 @@ TextureImporter:
       name: Car_RED_NL_NW
       rect:
         serializedVersion: 2
-        x: 10
-        y: 1950
+        x: 0
+        y: 2174
         width: 200
         height: 200
       alignment: 0
@@ -648,10 +648,10 @@ TextureImporter:
       name: Car_RED_PL_N
       rect:
         serializedVersion: 2
-        x: 237
-        y: 2160
+        x: 200
+        y: 1974
         width: 200
-        height: 198
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -669,8 +669,8 @@ TextureImporter:
       name: Car_RED_NL_N
       rect:
         serializedVersion: 2
-        x: 237
-        y: 1950
+        x: 200
+        y: 2174
         width: 200
         height: 200
       alignment: 0
@@ -690,8 +690,8 @@ TextureImporter:
       name: Car_RED_PL_NE
       rect:
         serializedVersion: 2
-        x: 461
-        y: 2160
+        x: 400
+        y: 1974
         width: 200
         height: 200
       alignment: 0
@@ -711,8 +711,8 @@ TextureImporter:
       name: Car_RED_NL_NE
       rect:
         serializedVersion: 2
-        x: 461
-        y: 1950
+        x: 400
+        y: 2174
         width: 200
         height: 200
       alignment: 0
@@ -732,8 +732,8 @@ TextureImporter:
       name: Car_RED_PL_E
       rect:
         serializedVersion: 2
-        x: 684
-        y: 2160
+        x: 600
+        y: 1974
         width: 200
         height: 200
       alignment: 0
@@ -753,8 +753,8 @@ TextureImporter:
       name: Car_RED_NL_E
       rect:
         serializedVersion: 2
-        x: 684
-        y: 1950
+        x: 600
+        y: 2174
         width: 200
         height: 200
       alignment: 0
@@ -774,8 +774,8 @@ TextureImporter:
       name: Car_RED_PL_SE
       rect:
         serializedVersion: 2
-        x: 910
-        y: 2160
+        x: 800
+        y: 1974
         width: 200
         height: 200
       alignment: 0
@@ -795,8 +795,8 @@ TextureImporter:
       name: Car_RED_NL_SE
       rect:
         serializedVersion: 2
-        x: 910
-        y: 1950
+        x: 800
+        y: 2174
         width: 200
         height: 200
       alignment: 0
@@ -816,8 +816,8 @@ TextureImporter:
       name: Car_RED_PL_S
       rect:
         serializedVersion: 2
-        x: 1140
-        y: 2160
+        x: 1000
+        y: 1974
         width: 200
         height: 200
       alignment: 0
@@ -837,8 +837,8 @@ TextureImporter:
       name: Car_RED_NL_S
       rect:
         serializedVersion: 2
-        x: 1140
-        y: 1950
+        x: 1000
+        y: 2174
         width: 200
         height: 200
       alignment: 0
@@ -858,8 +858,8 @@ TextureImporter:
       name: Car_RED_PL_SW
       rect:
         serializedVersion: 2
-        x: 1360
-        y: 2160
+        x: 1200
+        y: 1974
         width: 200
         height: 200
       alignment: 0
@@ -879,8 +879,8 @@ TextureImporter:
       name: Car_RED_NL_SW
       rect:
         serializedVersion: 2
-        x: 1363
-        y: 1950
+        x: 1200
+        y: 2174
         width: 200
         height: 200
       alignment: 0
@@ -900,8 +900,8 @@ TextureImporter:
       name: Car_RED_PL_W
       rect:
         serializedVersion: 2
-        x: 1589
-        y: 2160
+        x: 1400
+        y: 1974
         width: 200
         height: 200
       alignment: 0
@@ -921,8 +921,8 @@ TextureImporter:
       name: Car_RED_NL_W
       rect:
         serializedVersion: 2
-        x: 1589
-        y: 1950
+        x: 1400
+        y: 2174
         width: 200
         height: 200
       alignment: 0
