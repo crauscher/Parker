@@ -14,7 +14,7 @@ public class AttendantSensor : MonoBehaviour
     private GameObject itemHit;
     private Animator anim;
 
-    public GameObject[] vehicles;    // Array of objects that have the "vehicle" tag
+    public GameObject[] vehicles;                           // Array of objects that have the "vehicle" tag
     public GameObject possibleCar;
 
 
@@ -41,41 +41,40 @@ public class AttendantSensor : MonoBehaviour
     }
 
     // private methods
-    private void OnCollisionEnter2D(Collision2D other)
+    private void GetCarKey()                                // Gets the key number of the vehicle you want to find
     {
-        if (hasKey)
-        {
-            itemHit = other.gameObject;
-            foundTarget = CheckFoundTarget(itemHit);
-
-
-            anim = itemHit.GetComponent<Animator>(); //Can we turn lights on by touching any car? How do we tell it's even a car?
-            anim.SetBool("isFlashing", true);
-        }
-        else
-        {
-            foundTarget = false;
-        }
-                
-        if (foundTarget)
-        {
-            CheckKeyFitsLock();
-        }
-     }
-    private void GetCarKey()            // Gets the key number that the player is currently carrying (?)
-    {
-        carkey = tc.GetKeyNumber();     // Run method on TaskController script
+        carkey = tc.GetKeyNumber();                         // Run method on TaskController script
         if (carkey > 0)
         {
             hasKey = true;
         }
     }
+
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (hasKey)
+        {
+            itemHit = other.gameObject;
+            foundTarget = CheckFoundTarget(itemHit);        // checks if item hit has a key lock.
+        }
+        else
+        {
+            foundTarget = false;                            // you don't have a key, so you don't have a target to find
+        }
+                
+        if (foundTarget)
+        {
+            CheckKeyFitsLock();                             // you found a key lock, so check if it matches your key
+        }
+     }
+
     private bool CheckFoundTarget(GameObject itemHit)
     {
         var _focus = itemHit.GetComponent<ItemFocus>();
         if (_focus)
         {
-            carlock = _focus.GetItemID();      // The carlock is the collided object's itemID
+            carlock = _focus.GetItemID();                   // The carlock is the collided object's itemID
             return true;
         }
         else
@@ -86,15 +85,15 @@ public class AttendantSensor : MonoBehaviour
     }
     private void CheckKeyFitsLock()
     {
-        if (carlock == carkey)        // Carkey is from the current task.  carlock is from the collided object's itemID                          
+        if (carlock == carkey)              // Carkey is from the current task.  carlock is from the collided object's itemID                          
         {
-            ge_RightVehicle?.Raise();    // Tell the rest of the game that the right vehicle was found
+            ge_RightVehicle?.Raise();       // Tell the rest of the game that the right vehicle was found
             FoundRightCar();
         }
         else
         {
-            ge_WrongVehicle?.Raise();    // Tell the rest of the game that the wrong vehicle was found
-            FoundWrongCar();             // Display message to player about how it's the wrong car
+            ge_WrongVehicle?.Raise();       // Tell the rest of the game that the wrong vehicle was found
+            FoundWrongCar();                // Display message to player about how it's the wrong car
             
 
             // Add code here to make the correct vehicle's lights flash
@@ -103,42 +102,43 @@ public class AttendantSensor : MonoBehaviour
             // If we have gotten to this point, we should make itemID #2 car's lights flash
             // How to find the car?
             // Set its anim bool isFlashing to true
-
-            foreach (GameObject possibleCar in vehicles)
-            {
-
-                 CheckFoundTarget(possibleCar);
-                 // Debug.Log("Found a car: " + carlock);
-
-
-                
-                 if (carlock == carkey) {   // Correct car
-                  //  anim = possibleCar.GetComponent<Animator>();
-                  //  anim.SetBool("isFlashing", true);
-                 } else {
-
-                 //    anim.SetBool("isFlashing", true);  // Can we change it at all?
-
-                 }
-
-            }
-
-
         }
     }
     private void FoundRightCar() 
     {
         hasKey = false;
-        hc.AddMessageToQueue("You found the right car!");          // send message "Found it!"
+        hc.AddMessageToQueue("You found the right car!");                                           // send message "Found it!"
         itemHit.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-        CamFocus.SetValue(itemHit.gameObject);      // swap focus to vehicle
-        this.gameObject.SetActive(false);           // deactivate attendant
+        CamFocus.SetValue(itemHit.gameObject);                                                      // swap focus to vehicle
+        this.gameObject.SetActive(false);                                                           // deactivate attendant
         GoalScript.currentGoal = "Take car to exit.";
     }
     private void FoundWrongCar()
     {
         hc.AddMessageToQueue("Your key doesn't work on this car! The car you want is in " + 
-            GoalScript.currentGoal + "."); // send message "Wrong key."
+            GoalScript.currentGoal + ".");                                                          // send message "Wrong key."
 
+    }
+
+
+
+
+
+    // You should call this function with a keypress (like "Spacebar") when you want the lights to flash or turn off.
+    // It expects you to pass in a reference to the vehicle object (like "itemHit") and accesses it's Animator component.
+    // It then checks the light's current status (flashing/off) and sets them to the other state.
+    //
+    // It DOES NOT verify whether or not you have the right key -- that check is done elsewhere -- nor does it check if you are close to the vehicle.
+    private void ToggleVehicleLights(GameObject vehicle)
+    {
+        Animator vehicleAnim = vehicle.gameObject.GetComponent<Animator>();                        // Can we turn lights on by touching any car? How do we tell it's even a car?
+        if (!vehicleAnim.GetBool("isFlashing"))
+        {
+            vehicleAnim.SetBool("isFlashing", true);
+        }
+        else
+        {
+            vehicleAnim.SetBool("isFlashing", false);
+        }
     }
 }
