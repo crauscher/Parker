@@ -63,7 +63,7 @@ public class ItemAnim : MonoBehaviour
     }
     private void checkLights()
     {
-        bool lightswitch = movement.GetJump(); 
+        bool lightswitch = movement.GetJump(); // Space bar
         
         if (lightswitch && !isFlashing)
         {

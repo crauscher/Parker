@@ -56,7 +56,7 @@ public class AttendantSensor : MonoBehaviour
         if (hasKey)
         {
             itemHit = other.gameObject;
-            foundTarget = CheckFoundTarget(itemHit);        // checks if item hit has a key lock.
+            foundTarget = CheckFoundTarget(itemHit);        // checks if item hit has a key lock (or at least an ItemID)
         }
         else
         {
@@ -65,7 +65,8 @@ public class AttendantSensor : MonoBehaviour
                 
         if (foundTarget)
         {
-            CheckKeyFitsLock();                             // you found a key lock, so check if it matches your key
+
+            CheckKeyFitsLock(itemHit);                             // you found a key lock, so check if it matches your key
         }
      }
 
@@ -83,8 +84,12 @@ public class AttendantSensor : MonoBehaviour
             return false;
         }
     }
-    private void CheckKeyFitsLock()
+
+
+    private void CheckKeyFitsLock(GameObject carHit)
     {
+        ToggleVehicleLights(carHit);         // Whichever car was hit, right or wrong, make it flash
+
         if (carlock == carkey)              // Carkey is from the current task.  carlock is from the collided object's itemID                          
         {
             ge_RightVehicle?.Raise();       // Tell the rest of the game that the right vehicle was found
@@ -94,7 +99,8 @@ public class AttendantSensor : MonoBehaviour
         {
             ge_WrongVehicle?.Raise();       // Tell the rest of the game that the wrong vehicle was found
             FoundWrongCar();                // Display message to player about how it's the wrong car
-            
+
+  
 
             // Add code here to make the correct vehicle's lights flash
             // Hardcode itemID associated with correct car?
@@ -116,7 +122,9 @@ public class AttendantSensor : MonoBehaviour
     private void FoundWrongCar()
     {
         hc.AddMessageToQueue("Your key doesn't work on this car! The car you want is in " + 
-            GoalScript.currentGoal + ".");                                                          // send message "Wrong key."
+            GoalScript.currentGoal + ".");     
+
+            
 
     }
 
@@ -125,13 +133,20 @@ public class AttendantSensor : MonoBehaviour
 
 
     // You should call this function with a keypress (like "Spacebar") when you want the lights to flash or turn off.
-    // It expects you to pass in a reference to the vehicle object (like "itemHit") and accesses it's Animator component.
+    // It expects you to pass in a reference to the vehicle object (like "itemHit") and accesses its Animator component.
     // It then checks the light's current status (flashing/off) and sets them to the other state.
     //
-    // It DOES NOT verify whether or not you have the right key -- that check is done elsewhere -- nor does it check if you are close to the vehicle.
+    // It DOES NOT verify whether or not you have the right key -- that check is done elsewhere -- nor does it check if you are
+    // close to the vehicle.
     private void ToggleVehicleLights(GameObject vehicle)
     {
-        Animator vehicleAnim = vehicle.gameObject.GetComponent<Animator>();                        // Can we turn lights on by touching any car? How do we tell it's even a car?
+        Animator vehicleAnim = vehicle.gameObject.GetComponent<Animator>();    // Can we turn lights on by touching any car? 
+                                                                                // How do we tell it's even a car?
+        var _focus = vehicle.GetComponent<ItemFocus>();
+        var carNumber = _focus.GetItemID();
+
+        Debug.Log("Trying to toggle lights on vehicle # " + carNumber + ".");  
+
         if (!vehicleAnim.GetBool("isFlashing"))
         {
             vehicleAnim.SetBool("isFlashing", true);
