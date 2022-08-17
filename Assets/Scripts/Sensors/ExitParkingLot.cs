@@ -16,7 +16,7 @@ public class ExitParkingLot : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Found the exit!");
+       // Debug.Log("Found the exit!");
 
         // Some of this is being prototyped in VehicleSensor.cs
       

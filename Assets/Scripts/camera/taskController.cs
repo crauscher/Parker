@@ -44,13 +44,14 @@ public class taskController : MonoBehaviour
 
         if (currentTask<(tasks.Count-1) && !noMoreTasks)
         {
-            currentTask++;
+            currentTask++;  
         }
         else 
         {
             noMoreTasks = true;
         }
 
+        GetKeyNumber();
         DisplayTaskInfo();
     }
 

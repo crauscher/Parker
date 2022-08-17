@@ -22,11 +22,13 @@ public class VehicleSensor : MonoBehaviour
         {
             ge_AtDestination?.Raise(); // If game event "At Destination" is not null, raise (broadcast) event
                                        // HUD Controller == add message to queue "Vehicle is returned to owner. Congratulations..."
-                                       // HUD Controller == add message to queue "Ready for another one?"
+                                       // HUD Controller == add message to queue "Ready for another one?" 
+                                       //                                                   (this message is on the HUD object)
                                        // Main Camera == SetNextTask (in Task Controller)
                                        // Station == AwakenAttendant (in StationSensor)
                                        // ** NEED TO ADD Timer Reset
-            Debug.Log("About to remove car. CarsRemaining = " + CarsRemainingScript.currentCarsRemaining);
+            Debug.Log("About to remove car. CarsRemaining = " 
+                                                + CarsRemainingScript.currentCarsRemaining);
             
             Destroy(this.gameObject);  // Get rid of the car
         

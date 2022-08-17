@@ -26,7 +26,7 @@ public class TipsScript : MonoBehaviour
         }
         else {
             MessageDisplay.text = "Awesome! You have $" + Tips + " in tips!";
-           // addMessageToQueue("Awesome!You have $" + Tips + " in tips!");
+           // addMessageToQueue("Awesome! You have $" + Tips + " in tips!");
         }
         TipsDisplay.text = "Tips so far: $" + Tips;
     }
