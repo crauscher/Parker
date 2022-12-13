@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6427637523452021548
-    second: Car_SLV_NL_NW
+    second: Car_GRN_NL_NW
   - first:
       213: 1523574749152391610
     second: Car_SLV_NL_N
@@ -100,52 +100,124 @@ TextureImporter:
     second: Car_RED_NL_W
   - first:
       213: 2441367094863579463
-    second: Vehicle_SpriteSheet_Practice_32
+    second: Car_SLV_NL_NW
   - first:
       213: 247898394007748384
-    second: Vehicle_SpriteSheet_Practice_33
+    second: Car_GRN_NL_N
   - first:
       213: -4945069301012530070
-    second: Vehicle_SpriteSheet_Practice_34
+    second: Car_GRN_NL_NE
   - first:
       213: -2444167881860411387
-    second: Vehicle_SpriteSheet_Practice_35
+    second: Car_GRN_NL_E
   - first:
       213: 6726795429030960078
-    second: Vehicle_SpriteSheet_Practice_36
+    second: Car_GRN_NL_SE
   - first:
       213: -5367776162889984801
-    second: Vehicle_SpriteSheet_Practice_37
+    second: Car_GRN_NL_S
   - first:
       213: 5085220104800617765
-    second: Vehicle_SpriteSheet_Practice_38
+    second: Car_GRN_NL_SW
   - first:
       213: -4851619764523281491
-    second: Vehicle_SpriteSheet_Practice_39
+    second: Car_GRN_NL_W
   - first:
       213: 4848043152321522323
-    second: Vehicle_SpriteSheet_Practice_40
+    second: Car_GRN_PL_NW
   - first:
       213: 8670359035201729801
-    second: Vehicle_SpriteSheet_Practice_41
+    second: Car_GRN_PL_N
   - first:
       213: 3057738197272272774
-    second: Vehicle_SpriteSheet_Practice_42
+    second: Car_GRN_PL_NE
   - first:
       213: -1995684855841853449
-    second: Vehicle_SpriteSheet_Practice_43
+    second: Car_GRN_PL_E
   - first:
       213: 1784097850083826061
-    second: Vehicle_SpriteSheet_Practice_44
+    second: Car_GRN_PL_SE
   - first:
       213: -4813593552212511304
-    second: Vehicle_SpriteSheet_Practice_45
+    second: Car_GRN_PL_S
   - first:
       213: 8923116764834272118
-    second: Vehicle_SpriteSheet_Practice_46
+    second: Car_GRN_PL_SW
   - first:
       213: -3159392779066675285
-    second: Vehicle_SpriteSheet_Practice_47
+    second: Car_GRN_PL_W
+  - first:
+      213: -411666475003781759
+    second: Car_GRN_HL_NW
+  - first:
+      213: -7730764753567487278
+    second: Vehicle_SpriteSheet_Practice_49
+  - first:
+      213: 3439725665449174945
+    second: Vehicle_SpriteSheet_Practice_50
+  - first:
+      213: -4704310042923233040
+    second: Car_GRN_HL_N
+  - first:
+      213: 1090085048004356673
+    second: Car_GRN_HL_NE
+  - first:
+      213: -5956068987467420060
+    second: Car_GRN_HL_E
+  - first:
+      213: -2712530747982764333
+    second: Car_GRN_HL_SE
+  - first:
+      213: 4126404714975566139
+    second: Car_GRN_HL_S
+  - first:
+      213: 9160134708559246634
+    second: Car_GRN_HL_SW
+  - first:
+      213: 2105780759296458127
+    second: Car_GRN_HL_W
+  - first:
+      213: -8228193881574123742
+    second: Vehicle_SpriteSheet_Practice_58
+  - first:
+      213: -1800346932660700764
+    second: Vehicle_SpriteSheet_Practice_59
+  - first:
+      213: -4925101396783705455
+    second: Vehicle_SpriteSheet_Practice_60
+  - first:
+      213: -3857888361992839986
+    second: Vehicle_SpriteSheet_Practice_61
+  - first:
+      213: -2105116766952050409
+    second: Vehicle_SpriteSheet_Practice_62
+  - first:
+      213: 8329443270288570377
+    second: Vehicle_SpriteSheet_Practice_63
+  - first:
+      213: 6457674009580855362
+    second: Vehicle_SpriteSheet_Practice_64
+  - first:
+      213: 8934185956605600268
+    second: Vehicle_SpriteSheet_Practice_65
+  - first:
+      213: -6016630529196036902
+    second: Vehicle_SpriteSheet_Practice_66
+  - first:
+      213: 1548594309521331473
+    second: Vehicle_SpriteSheet_Practice_67
+  - first:
+      213: -3715417542450295956
+    second: Vehicle_SpriteSheet_Practice_68
+  - first:
+      213: -5172522777899563324
+    second: Vehicle_SpriteSheet_Practice_69
+  - first:
+      213: 4286718977861130293
+    second: Vehicle_SpriteSheet_Practice_70
+  - first:
+      213: 7503541509414568774
+    second: Vehicle_SpriteSheet_Practice_71
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -267,13 +339,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Car_SLV_NL_NW
+      name: Car_GRN_NL_NW
       rect:
         serializedVersion: 2
-        x: 13
-        y: 1498
+        x: 0
+        y: 989
         width: 200
-        height: 200
+        height: 199
       alignment: 9
       pivot: {x: 225, y: 225}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +363,10 @@ TextureImporter:
       name: Car_SLV_NL_N
       rect:
         serializedVersion: 2
-        x: 244
-        y: 1498
+        x: 200
+        y: 1576
         width: 200
-        height: 200
+        height: 198
       alignment: 9
       pivot: {x: 225, y: 225}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +384,10 @@ TextureImporter:
       name: Car_SLV_NL_NE
       rect:
         serializedVersion: 2
-        x: 464
-        y: 1498
+        x: 400
+        y: 1576
         width: 200
-        height: 200
+        height: 198
       alignment: 9
       pivot: {x: 225, y: 225}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,10 +405,10 @@ TextureImporter:
       name: Car_SLV_NL_E
       rect:
         serializedVersion: 2
-        x: 684
-        y: 1498
+        x: 600
+        y: 1576
         width: 200
-        height: 200
+        height: 198
       alignment: 9
       pivot: {x: 225, y: 225}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,10 +426,10 @@ TextureImporter:
       name: Car_SLV_NL_SE
       rect:
         serializedVersion: 2
-        x: 912
-        y: 1498
+        x: 800
+        y: 1576
         width: 200
-        height: 200
+        height: 198
       alignment: 9
       pivot: {x: 225, y: 225}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,10 +447,10 @@ TextureImporter:
       name: Car_SLV_NL_S
       rect:
         serializedVersion: 2
-        x: 1141
-        y: 1498
+        x: 1000
+        y: 1576
         width: 200
-        height: 200
+        height: 198
       alignment: 9
       pivot: {x: 225, y: 225}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,10 +468,10 @@ TextureImporter:
       name: Car_SLV_NL_SW
       rect:
         serializedVersion: 2
-        x: 1364
-        y: 1498
+        x: 1200
+        y: 1576
         width: 200
-        height: 200
+        height: 198
       alignment: 9
       pivot: {x: 225, y: 225}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,10 +489,10 @@ TextureImporter:
       name: Car_SLV_NL_W
       rect:
         serializedVersion: 2
-        x: 1588
-        y: 1498
+        x: 1400
+        y: 1576
         width: 200
-        height: 200
+        height: 198
       alignment: 9
       pivot: {x: 225, y: 225}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -934,6 +1006,846 @@ TextureImporter:
       bones: []
       spriteID: b60b263363a293d30800000000000000
       internalID: 4411603722264817771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_SLV_NL_NW
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1576
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749cba7107a71e120800000000000000
+      internalID: 2441367094863579463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_NL_N
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 989
+        width: 200
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fb833a646b07300800000000000000
+      internalID: 247898394007748384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_NL_NE
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 989
+        width: 200
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c757bbba59f5bb0800000000000000
+      internalID: -4945069301012530070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_NL_E
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 989
+        width: 200
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5009a4ed242941ed0800000000000000
+      internalID: -2444167881860411387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_NL_SE
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 989
+        width: 201
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb9c187dc06a5d50800000000000000
+      internalID: 6726795429030960078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_NL_S
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 989
+        width: 201
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd412210504d185b0800000000000000
+      internalID: -5367776162889984801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_NL_SW
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 989
+        width: 201
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525c05f1eb4529640800000000000000
+      internalID: 5085220104800617765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_NL_W
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 989
+        width: 197
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3535677859bacb0800000000000000
+      internalID: -4851619764523281491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_PL_NW
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 791
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39aa3ed9f85b74340800000000000000
+      internalID: 4848043152321522323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_PL_N
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 791
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9053c40ea9d435870800000000000000
+      internalID: 8670359035201729801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_PL_NE
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 791
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f9e8890b44f6a20800000000000000
+      internalID: 3057738197272272774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_PL_E
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 791
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff6beb7237ed44e0800000000000000
+      internalID: -1995684855841853449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_PL_SE
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 791
+        width: 201
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89d8c6ca8362c810800000000000000
+      internalID: 1784097850083826061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_PL_S
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 791
+        width: 201
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b53343fa2ea23db0800000000000000
+      internalID: -4813593552212511304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_PL_SW
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 791
+        width: 201
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6739741cb6745db70800000000000000
+      internalID: 8923116764834272118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_PL_W
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 791
+        width: 201
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafebc1b1059724d0800000000000000
+      internalID: -3159392779066675285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_HL_NW
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 593
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d5677a587794af0800000000000000
+      internalID: -411666475003781759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1379
+        width: 200
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daef7d7a6ec6b490800000000000000
+      internalID: -7730764753567487278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1188
+        width: 200
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a764eda44c5cbf20800000000000000
+      internalID: 3439725665449174945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_HL_N
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 593
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f01242c0fee6beb0800000000000000
+      internalID: -4704310042923233040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_HL_NE
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 593
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14aa34d5392c02f00800000000000000
+      internalID: 1090085048004356673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_HL_E
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 593
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ea84000dac75da0800000000000000
+      internalID: -5956068987467420060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_HL_SE
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 593
+        width: 201
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6a92408a72b5ad0800000000000000
+      internalID: -2712530747982764333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_HL_S
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 593
+        width: 201
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b399d93c93fe34930800000000000000
+      internalID: 4126404714975566139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_HL_SW
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 593
+        width: 201
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2576662cf55f1f70800000000000000
+      internalID: 9160134708559246634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Car_GRN_HL_W
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 593
+        width: 201
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8db7b4917c393d10800000000000000
+      internalID: 2105780759296458127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_58
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1379
+        width: 200
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2275bb172459fcd80800000000000000
+      internalID: -8228193881574123742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_59
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1379
+        width: 200
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a97b4ed002e307e0800000000000000
+      internalID: -1800346932660700764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_60
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1379
+        width: 200
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1925de9bf5686abb0800000000000000
+      internalID: -4925101396783705455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_61
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1379
+        width: 200
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc9d4889f6067ac0800000000000000
+      internalID: -3857888361992839986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_62
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1379
+        width: 200
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711ba1f247f19c2e0800000000000000
+      internalID: -2105116766952050409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_63
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1379
+        width: 200
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9087156e580289370800000000000000
+      internalID: 8329443270288570377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_64
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1379
+        width: 200
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240e6582c444e9950800000000000000
+      internalID: 6457674009580855362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_65
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1188
+        width: 200
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02a2cccaca9cfb70800000000000000
+      internalID: 8934185956605600268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_66
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1188
+        width: 200
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcef724962a08ca0800000000000000
+      internalID: -6016630529196036902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_67
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1188
+        width: 200
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115d538d156bd7510800000000000000
+      internalID: 1548594309521331473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_68
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1188
+        width: 200
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bcef52e6f207cc0800000000000000
+      internalID: -3715417542450295956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_69
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1188
+        width: 201
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c60eae40f18738b0800000000000000
+      internalID: -5172522777899563324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_70
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1188
+        width: 203
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5389657c23c7d7b30800000000000000
+      internalID: 4286718977861130293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vehicle_SpriteSheet_Practice_71
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1188
+        width: 201
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643cd025f3fe12860800000000000000
+      internalID: 7503541509414568774
       vertices: []
       indices: 
       edges: []
