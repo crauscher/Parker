@@ -23,7 +23,7 @@ public class CarsRemainingScript : MonoBehaviour
     void Update()
     {
         if (currentCarsRemaining <= 0) {
-            CarsDisplay.text = "You found them all, good job!";
+            CarsDisplay.text = "You found them all, good job! You have earned $" + TipsScript.Tips + " in tips.";
         } else if (currentCarsRemaining == 1)
         {
             CarsDisplay.text = "Only 1 more car to go!";

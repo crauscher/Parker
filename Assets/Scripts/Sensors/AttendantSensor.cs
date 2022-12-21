@@ -29,7 +29,7 @@ public class AttendantSensor : MonoBehaviour
         hc = FindObjectOfType<HUDController>();
 
   
-            vehicles = GameObject.FindGameObjectsWithTag("Vehicle");
+            vehicles = GameObject.FindGameObjectsWithTag("Vehicle"); // Make an array of all possible vehicles
 
     }
     void Update() 
@@ -68,6 +68,8 @@ public class AttendantSensor : MonoBehaviour
 
             CheckKeyFitsLock(itemHit);                             // you found a key lock, so check if it matches your key
         }
+
+        // Need an "else" here for if player doesn't have a key or the collided item doesn't have a key lock
      }
 
     private bool CheckFoundTarget(GameObject itemHit)

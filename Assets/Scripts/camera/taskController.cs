@@ -49,6 +49,12 @@ public class taskController : MonoBehaviour
         else 
         {
             noMoreTasks = true;
+            // Clear goal
+            // Clear timer
+            // Go to win scene
+                // Display total tips
+                // Congratulations! You have returned all six cars, and earned $$.$$ in tips!
+                // Play again?
         }
 
         GetKeyNumber();
@@ -75,5 +81,7 @@ public class taskController : MonoBehaviour
         TN_Script.taskSectionSlot = nextGoal;
         GoalScript.currentGoal = nextGoal;
     }
+
+
 
 }
